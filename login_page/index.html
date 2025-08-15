@@ -42,6 +42,7 @@
 <body class="bg-[var(--background-color)]">
 <div class="relative flex size-full min-h-screen flex-col justify-between group/design-root overflow-x-hidden">
 <main class="flex-grow">
+<div id="initial-content">
 <div class="w-full h-80">
 <img alt="Fashion model" class="w-full h-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDmcg8R0-4Yeie-lUsoJuErbSIXiI1PDj9mDFEs5NIyyzG81oE4LYBTieoLJA1PzFFA7F1i8NsaMhiD1J21-mnrXc5HLJUbAIvCcjUaiCUgzcPHO_9cVW_dp3569vi8477R-VjFD-OyjhZHriA09uKBE0iQzEVbc1QVdkBmrMB57L8d8DlX1EBHP6faKUpUokfE1yTAfRdPZi_XrMxpTtAWk-TS2SDQ6945TPQnFg2cV8Yo2zT7XSKd23NUI9YmExwcAgF3aGF102U"/>
 </div>
@@ -50,7 +51,7 @@
 <p class="mt-2 text-base text-[var(--text-primary)]">Discover personalized fashion insights and shop your dream wardrobe with ease.</p>
 </div>
 <div class="px-6 space-y-4">
-<button class="btn-primary w-full h-14 rounded-xl text-base font-bold tracking-wide transform hover:scale-105 active:scale-95 transition-transform duration-200 ease-in-out">
+<button id="continue-with-email" class="btn-primary w-full h-14 rounded-xl text-base font-bold tracking-wide transform hover:scale-105 active:scale-95 transition-transform duration-200 ease-in-out">
                     Continue with Email
                 </button>
 <button class="btn-secondary w-full h-14 rounded-xl text-base font-bold tracking-wide transform hover:scale-105 active:scale-95 transition-transform duration-200 ease-in-out">
@@ -74,6 +75,30 @@
 <p class="pt-4 text-sm text-[var(--text-secondary)]">
 <a class="underline hover:text-[var(--primary-color)]" href="#">Already have an account? Log In</a>
 </p>
+</div>
+</div>
+<div id="email-form" class="hidden px-6 py-8">
+    <h1 class="text-3xl font-bold text-[var(--text-primary)] tracking-tight text-center">Welcome Back</h1>
+    <p class="mt-2 text-base text-[var(--text-primary)] text-center">Please enter your details to log in.</p>
+    <form class="mt-8 space-y-6">
+        <div>
+            <label for="email" class="block text-sm font-medium text-gray-700">Email address</label>
+            <div class="mt-1">
+                <input id="email" name="email" type="email" autocomplete="email" required class="form-input block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm">
+            </div>
+        </div>
+        <div>
+            <label for="password" class="block text-sm font-medium text-gray-700">Password</label>
+            <div class="mt-1">
+                <input id="password" name="password" type="password" autocomplete="current-password" required class="form-input block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm">
+            </div>
+        </div>
+        <div>
+            <button type="submit" class="btn-primary w-full h-14 rounded-xl text-base font-bold tracking-wide">
+                Log In
+            </button>
+        </div>
+    </form>
 </div>
 </main>
 <footer class="sticky bottom-0 bg-[var(--background-color)] border-t border-[var(--secondary-color)]">
@@ -101,5 +126,42 @@
 </nav>
 </footer>
 </div>
+<script>
+    const initialContent = document.getElementById('initial-content');
+    const emailForm = document.getElementById('email-form');
+    const continueWithEmailButton = document.getElementById('continue-with-email');
 
+    continueWithEmailButton.addEventListener('click', () => {
+        initialContent.classList.add('hidden');
+        emailForm.classList.remove('hidden');
+    });
+
+    const loginForm = document.querySelector('form');
+    const emailInput = document.getElementById('email');
+    const passwordInput = document.getElementById('password');
+
+    loginForm.addEventListener('submit', async (event) => {
+        event.preventDefault();
+
+        const email = emailInput.value;
+        const password = passwordInput.value;
+
+        const response = await fetch('/login', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json'
+            },
+            body: JSON.stringify({ email, password })
+        });
+
+        const data = await response.json();
+
+        if (response.ok) {
+            alert(data.message);
+            // Redirect to the wardrobe page or another page
+        } else {
+            alert(data.message);
+        }
+    });
+</script>
 </body></html>
