@@ -189,4 +189,19 @@
 </footer>
 </div>
 
+<script>
+    const settingsItems = document.querySelectorAll('.settings-item');
+    settingsItems.forEach(item => {
+        item.addEventListener('click', (e) => {
+            e.preventDefault();
+            alert('This feature is not yet implemented.');
+        });
+    });
+
+    const logoutButton = document.querySelector('.text-red-500');
+    logoutButton.addEventListener('click', () => {
+        alert('Logging out...');
+    });
+</script>
+
 </body></html>

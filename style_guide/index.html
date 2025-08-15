@@ -122,12 +122,22 @@
 <p class="text-xs font-medium tracking-wide">Wardrobe</p>
 </a>
 <a class="flex flex-col items-center justify-end gap-1 nav-inactive" href="#">
-<svg fill="currentColor" height="24" viewBox="0 0 256 256" width="24" xmlns="http://www.w3.org/2000/svg">
+<svg fill="currentColor" height="24" viewBox="0 0 256 256" width="24px" xmlns="http://www.w3.org/2000/svg">
 <path d="M230.92,212c-15.23-26.33-38.7-45.21-66.09-54.16a72,72,0,1,0-73.66,0C63.78,166.78,40.31,185.66,25.08,212a8,8,0,1,0,13.85,8c18.84-32.56,52.14-52,89.07-52s70.23,19.44,89.07,52a8,8,0,1,0,13.85-8ZM72,96a56,56,0,1,1,56,56A56.06,56.06,0,0,1,72,96Z"></path>
 </svg>
 <p class="text-xs font-medium tracking-wide">Profile</p>
 </a>
 </nav>
 </div>
+
+<script>
+    const shopNowButtons = document.querySelectorAll('a.bg-\\[var\\(--primary-color\\)\\]');
+    shopNowButtons.forEach(button => {
+        button.addEventListener('click', (e) => {
+            e.preventDefault();
+            alert('Redirecting to shop...');
+        });
+    });
+</script>
 
 </body></html>

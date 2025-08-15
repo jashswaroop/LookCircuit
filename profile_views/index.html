@@ -129,4 +129,18 @@
 </footer>
 </div>
 
+<script>
+    const viewInsightsLink = document.querySelector('a.text-\\[var\\(--primary-color\\)\\]');
+    const editButton = document.querySelector('button.text-\\[var\\(--text-primary\\)\\]');
+
+    viewInsightsLink.addEventListener('click', (e) => {
+        e.preventDefault();
+        alert('Viewing insights...');
+    });
+
+    editButton.addEventListener('click', () => {
+        alert('Editing profile...');
+    });
+</script>
+
 </body></html>

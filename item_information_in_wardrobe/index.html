@@ -194,4 +194,28 @@
 </footer>
 </div>
 
+<script>
+    const urlParams = new URLSearchParams(window.location.search);
+    const itemId = urlParams.get('id');
+
+    async function fetchWardrobeItem() {
+        const response = await fetch(`/wardrobe/${itemId}`);
+        const item = await response.json();
+
+        document.querySelector('h1').textContent = item.name;
+        document.querySelector('.aspect-\\[4\\/5\\]').style.backgroundImage = `url('${item.image_url}')`;
+        document.querySelector('.text-gray-600').textContent = `A classic ${item.name}, perfect for layering and adding a casual touch to any outfit. Made from durable cotton denim, it features a button-up front, two chest pockets, and adjustable cuffs.`;
+
+        const details = document.querySelectorAll('.space-y-3 p');
+        details[1].textContent = item.brand;
+        details[3].textContent = item.size;
+        details[5].textContent = item.color;
+
+    }
+
+    if (itemId) {
+        fetchWardrobeItem();
+    }
+</script>
+
 </body></html>
