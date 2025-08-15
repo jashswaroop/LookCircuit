@@ -130,4 +130,14 @@
 </nav>
 </div>
 
+<script>
+    const shopNowButtons = document.querySelectorAll('a.bg-\\[var\\(--primary-color\\)\\]');
+    shopNowButtons.forEach(button => {
+        button.addEventListener('click', (e) => {
+            e.preventDefault();
+            alert('Redirecting to shop...');
+        });
+    });
+</script>
+
 </body></html>
