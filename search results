@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<link crossorigin="" href="https://fonts.gstatic.com/" rel="preconnect"/>
+<link as="style" href="https://fonts.googleapis.com/css2?display=swap&amp;family=Plus+Jakarta+Sans%3Awght%40400%3B500%3B700%3B800" onload="this.rel='stylesheet'" rel="stylesheet"/>
+<title>Stitch Design</title>
+<link href="data:image/x-icon;base64," rel="icon" type="image/x-icon"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<style type="text/tailwindcss">
+      :root {
+        --primary-50: #eff6ff;
+        --primary-100: #dbeafe;
+        --primary-200: #bfdbfe;
+        --primary-300: #93c5fd;
+        --primary-400: #60a5fa;
+        --primary-500: #3b82f6;
+        --primary-600: #2563eb;
+        --primary-700: #1d4ed8;
+        --primary-800: #1e40af;
+        --primary-900: #1e3a8a;
+        --primary-950: #172554;
+      }
+      body {
+        font-family: "Plus Jakarta Sans", sans-serif;
+      }
+    </style>
+<style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+  </head>
+<body class="bg-white">
+<div class="relative flex size-full min-h-screen flex-col justify-between group/design-root overflow-x-hidden">
+<div class="flex-grow">
+<header class="sticky top-0 z-10 bg-white/80 backdrop-blur-sm">
+<div class="flex items-center p-4">
+<button class="text-slate-800 flex size-10 shrink-0 items-center justify-center rounded-full hover:bg-slate-100">
+<svg fill="currentColor" height="24px" viewBox="0 0 256 256" width="24px" xmlns="http://www.w3.org/2000/svg">
+<path d="M224,128a8,8,0,0,1-8,8H59.31l58.35,58.34a8,8,0,0,1-11.32,11.32l-72-72a8,8,0,0,1,0-11.32l72-72a8,8,0,0,1,11.32,11.32L59.31,120H216A8,8,0,0,1,224,128Z"></path>
+</svg>
+</button>
+<h1 class="flex-1 text-center text-lg font-bold tracking-tight text-slate-900 pr-10">Search Results</h1>
+</div>
+<div class="px-4 pb-3">
+<div class="relative">
+<div class="pointer-events-none absolute inset-y-0 left-0 flex items-center pl-4">
+<svg class="h-5 w-5 text-slate-400" fill="currentColor" height="24px" viewBox="0 0 256 256" width="24px" xmlns="http://www.w3.org/2000/svg">
+<path d="M229.66,218.34l-50.07-50.06a88.11,88.11,0,1,0-11.31,11.31l50.06,50.07a8,8,0,0,0,11.32-11.32ZM40,112a72,72,0,1,1,72,72A72.08,72.08,0,0,1,40,112Z"></path>
+</svg>
+</div>
+<input class="form-input w-full rounded-full border-transparent bg-slate-100 py-3 pl-11 pr-10 text-base text-slate-900 placeholder:text-slate-400 focus:border-[var(--primary-500)] focus:ring-2 focus:ring-[var(--primary-500)]/50" value="Summer dresses"/>
+<button class="absolute inset-y-0 right-0 flex items-center pr-4">
+<svg class="h-5 w-5 text-slate-400 hover:text-slate-600" fill="currentColor" height="24px" viewBox="0 0 256 256" width="24px" xmlns="http://www.w3.org/2000/svg">
+<path d="M165.66,101.66,139.31,128l26.35,26.34a8,8,0,0,1-11.32,11.32L128,139.31l-26.34,26.35a8,8,0,0,1-11.32-11.32L116.69,128,90.34,101.66a8,8,0,0,1,11.32-11.32L128,116.69l26.34-26.35a8,8,0,0,1,11.32,11.32ZM232,128A104,104,0,1,1,128,24,104.11,104.11,0,0,1,232,128Zm-16,0a88,88,0,1,0-88,88A88.1,88.1,0,0,0,216,128Z"></path>
+</svg>
+</button>
+</div>
+</div>
+<div class="flex gap-2 p-4 pt-0 overflow-x-auto">
+<button class="flex h-10 shrink-0 items-center justify-center gap-x-2 rounded-full bg-[var(--primary-500)] px-4 text-white shadow-sm transition-colors hover:bg-[var(--primary-600)]">
+<p class="text-sm font-semibold">All</p>
+</button>
+<button class="flex h-10 shrink-0 items-center justify-center gap-x-2 rounded-full border border-slate-200 bg-white px-4 text-slate-700 transition-colors hover:bg-slate-50">
+<p class="text-sm font-semibold">Price</p>
+<svg class="h-5 w-5 text-slate-500" fill="currentColor" height="20px" viewBox="0 0 256 256" width="20px" xmlns="http://www.w3.org/2000/svg">
+<path d="M213.66,101.66l-80,80a8,8,0,0,1-11.32,0l-80-80A8,8,0,0,1,53.66,90.34L128,164.69l74.34-74.35a8,8,0,0,1,11.32,11.32Z"></path>
+</svg>
+</button>
+<button class="flex h-10 shrink-0 items-center justify-center gap-x-2 rounded-full border border-slate-200 bg-white px-4 text-slate-700 transition-colors hover:bg-slate-50">
+<p class="text-sm font-semibold">Brand</p>
+<svg class="h-5 w-5 text-slate-500" fill="currentColor" height="20px" viewBox="0 0 256 256" width="20px" xmlns="http://www.w3.org/2000/svg">
+<path d="M213.66,101.66l-80,80a8,8,0,0,1-11.32,0l-80-80A8,8,0,0,1,53.66,90.34L128,164.69l74.34-74.35a8,8,0,0,1,11.32,11.32Z"></path>
+</svg>
+</button>
+<button class="flex h-10 shrink-0 items-center justify-center gap-x-2 rounded-full border border-slate-200 bg-white px-4 text-slate-700 transition-colors hover:bg-slate-50">
+<p class="text-sm font-semibold">Style</p>
+<svg class="h-5 w-5 text-slate-500" fill="currentColor" height="20px" viewBox="0 0 256 256" width="20px" xmlns="http://www.w3.org/2000/svg">
+<path d="M213.66,101.66l-80,80a8,8,0,0,1-11.32,0l-80-80A8,8,0,0,1,53.66,90.34L128,164.69l74.34-74.35a8,8,0,0,1,11.32,11.32Z"></path>
+</svg>
+</button>
+</div>
+</header>
+<main class="grid grid-cols-2 gap-4 p-4">
+<div class="group relative flex flex-col">
+<div class="relative w-full overflow-hidden rounded-xl">
+<div class="aspect-[3/4] w-full bg-cover bg-center transition-transform duration-300 group-hover:scale-105" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuAtBI_pVkIP7U10-TwH423v8bSZvg7CvYedSLDuKFZNIwjgYbR5vcvx-DL2TSFnpAE_-ZUoGacLSRMouNtTDwc-TA9ZhMZ5sgkEy1AmjaUYpzfAOuDmH02X6WbqHiyOP5MeLhuKyJyKUMU16NT0uRmGWi-VeNpyhzZ2QPTQk6IAMzeQ3AtG0DJwoXI19oXIEU3aMKnYMKus2F5hl5yNbdkcWWFE9qbvLngz6zVnhPhH9Soq3yOAdH38sd4PcsGYI5JhrD-Oxml6FfU");'></div>
+<button class="absolute top-2 right-2 flex h-8 w-8 items-center justify-center rounded-full bg-white/80 text-slate-700 backdrop-blur-sm transition-colors hover:bg-white">
+<svg fill="currentColor" height="20" viewBox="0 0 256 256" width="20" xmlns="http://www.w3.org/2000/svg">
+<path d="M128,216S28,160,28,92A52,52,0,0,1,128,64a52,52,0,0,1,100,28C228,160,128,216,128,216Zm-4-104a12,12,0,1,0-12-12A12,12,0,0,0,124,112Z" opacity="0.3"></path>
+<path d="M172,56a60,60,0,0,0-86.53,48.16c0,42.82,75.21,107,81.08,112.15a8,8,0,0,0,10.89,0c5.87-5.12,81.08-69.33,81.08-112.15A60,60,0,0,0,172,56Zm-44,56a12,12,0,1,1,12-12A12,12,0,0,1,128,112Z"></path>
+</svg>
+</button>
+</div>
+<div class="py-3">
+<h3 class="text-sm font-semibold text-slate-800">Floral Sundress</h3>
+<p class="text-sm font-medium text-slate-500">$49.99</p>
+</div>
+</div>
+<div class="group relative flex flex-col">
+<div class="relative w-full overflow-hidden rounded-xl">
+<div class="aspect-[3/4] w-full bg-cover bg-center transition-transform duration-300 group-hover:scale-105" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuDy8RIV4C_Fzaf4Fq1zrF5SREIJj3z_TQZuKSneM0W6FuXRSbKzeTW0UgddPyKFqKl_Q3dfinPvl-bsjFq6ko6Cxxl5MHHAJg_L08Wej7ccqdqwdcnEu6zjml7ejYVp44PEdFrwY3iekKBub5PmBkmkYgCGLC2_CHjmXcxCZkDZ8-WYXUYwvHFrzzKPBb-k2YisAkVxZmbRGvlm1wjSSOLCLER4ERXzyjHOtvSWllVvjznp6ye8IkGt6eshhNckiYrUnwXLCziOv8s");'></div>
+<button class="absolute top-2 right-2 flex h-8 w-8 items-center justify-center rounded-full bg-white/80 text-slate-700 backdrop-blur-sm transition-colors hover:bg-white">
+<svg fill="currentColor" height="20" viewBox="0 0 256 256" width="20" xmlns="http://www.w3.org/2000/svg">
+<path d="M128,216S28,160,28,92A52,52,0,0,1,128,64a52,52,0,0,1,100,28C228,160,128,216,128,216Zm-4-104a12,12,0,1,0-12-12A12,12,0,0,0,124,112Z" opacity="0.3"></path>
+<path d="M172,56a60,60,0,0,0-86.53,48.16c0,42.82,75.21,107,81.08,112.15a8,8,0,0,0,10.89,0c5.87-5.12,81.08-69.33,81.08-112.15A60,60,0,0,0,172,56Zm-44,56a12,12,0,1,1,12-12A12,12,0,0,1,128,112Z"></path>
+</svg>
+</button>
+</div>
+<div class="py-3">
+<h3 class="text-sm font-semibold text-slate-800">Striped Maxi Dress</h3>
+<p class="text-sm font-medium text-slate-500">$59.99</p>
+</div>
+</div>
+<div class="group relative flex flex-col">
+<div class="relative w-full overflow-hidden rounded-xl">
+<div class="aspect-[3/4] w-full bg-cover bg-center transition-transform duration-300 group-hover:scale-105" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuC4NJG8meyuv22d4JiC94PwPVvmNYwqGLGksR8HYxX619d06fEhni9HgDi1yNX7i0Wwtl4Lo1KEH1goqB_RF4l-ikZxCs5jsb1o36oD3Eksn7Rpi8zMdIoY9TxCMRbjIDeyjkmk340MMLAiq0KQNDkKTWLl8olFk8VEt_A6uG8Pac6DqtZYrUyj3IKalsj9C6yPTi4_uUXSoYTft_5KkNcPG_vH6gDBeu42C6bNOHhFhwUiADeBi5PFpZWy4g0zeJt3tOjGCzUTYEU");'></div>
+<button class="absolute top-2 right-2 flex h-8 w-8 items-center justify-center rounded-full bg-white/80 text-slate-700 backdrop-blur-sm transition-colors hover:bg-white">
+<svg fill="currentColor" height="20" viewBox="0 0 256 256" width="20" xmlns="http://www.w3.org/2000/svg">
+<path d="M128,216S28,160,28,92A52,52,0,0,1,128,64a52,52,0,0,1,100,28C228,160,128,216,128,216Zm-4-104a12,12,0,1,0-12-12A12,12,0,0,0,124,112Z" opacity="0.3"></path>
+<path d="M172,56a60,60,0,0,0-86.53,48.16c0,42.82,75.21,107,81.08,112.15a8,8,0,0,0,10.89,0c5.87-5.12,81.08-69.33,81.08-112.15A60,60,0,0,0,172,56Zm-44,56a12,12,0,1,1,12-12A12,12,0,0,1,128,112Z"></path>
+</svg>
+</button>
+</div>
+<div class="py-3">
+<h3 class="text-sm font-semibold text-slate-800">Boho Chic Dress</h3>
+<p class="text-sm font-medium text-slate-500">$69.99</p>
+</div>
+</div>
+<div class="group relative flex flex-col">
+<div class="relative w-full overflow-hidden rounded-xl">
+<div class="aspect-[3/4] w-full bg-cover bg-center transition-transform duration-300 group-hover:scale-105" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuCKcpjhWawXH8YztwIkcC6c1lcxdgHdCJVFskgRBv4SDXQYmM_U1UcY5wbMsl4gKx7MAh9ZO2--Dh80Iq3ahfRed5XQ4QlsomNbj2UY-5fpT-wa80v0q140G2vi0JdLy-2LfDGRzwxkpPD4b5ygekKBvJQSizaBq83VVMDhDM7HKZw8jw8hAKW7PPWbB6MK2MLPReLKsR1MXUYF16FjvXBTCzDo4Qcun8O84tEJywx1lL8E_Mdw4myRs3-kCU7unfAxDsK6qTlmZTI");'></div>
+<button class="absolute top-2 right-2 flex h-8 w-8 items-center justify-center rounded-full bg-white/80 text-slate-700 backdrop-blur-sm transition-colors hover:bg-white">
+<svg fill="currentColor" height="20" viewBox="0 0 256 256" width="20" xmlns="http://www.w3.org/2000/svg">
+<path d="M128,216S28,160,28,92A52,52,0,0,1,128,64a52,52,0,0,1,100,28C228,160,128,216,128,216Zm-4-104a12,12,0,1,0-12-12A12,12,0,0,0,124,112Z" opacity="0.3"></path>
+<path d="M172,56a60,60,0,0,0-86.53,48.16c0,42.82,75.21,107,81.08,112.15a8,8,0,0,0,10.89,0c5.87-5.12,81.08-69.33,81.08-112.15A60,60,0,0,0,172,56Zm-44,56a12,12,0,1,1,12-12A12,12,0,0,1,128,112Z"></path>
+</svg>
+</button>
+</div>
+<div class="py-3">
+<h3 class="text-sm font-semibold text-slate-800">Casual Summer Dress</h3>
+<p class="text-sm font-medium text-slate-500">$39.99</p>
+</div>
+</div>
+<div class="group relative flex flex-col">
+<div class="relative w-full overflow-hidden rounded-xl">
+<div class="aspect-[3/4] w-full bg-cover bg-center transition-transform duration-300 group-hover:scale-105" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuDQdFmRUNHuDQfPpsmbi7p2oDKqQMBdqtCBNg54nhyMcc6TMWcpQaaEkwdccnCxdhl4T4j1lbo5WpeVn241mBUaW98Ofs9_z_ZzeG-pKMZDeZ3BAsQNXDd-kdMVZIygAmjQwz2NSlKQZiQve_wMrgAq54-_6IhIwr3Iz8HE8Rm3oUzRNa0L4GIRkk6dvIRo8nBkQ4MYlfieNl2MW7vftYpxa5T0XazYzjjdN-BJwdwSjcSd5hqVQz5hoE4BkMIHv1-MoxeFFxObqI4");'></div>
+<button class="absolute top-2 right-2 flex h-8 w-8 items-center justify-center rounded-full bg-white/80 text-slate-700 backdrop-blur-sm transition-colors hover:bg-white">
+<svg fill="currentColor" height="20" viewBox="0 0 256 256" width="20" xmlns="http://www.w3.org/2000/svg">
+<path d="M128,216S28,160,28,92A52,52,0,0,1,128,64a52,52,0,0,1,100,28C228,160,128,216,128,216Zm-4-104a12,12,0,1,0-12-12A12,12,0,0,0,124,112Z" opacity="0.3"></path>
+<path d="M172,56a60,60,0,0,0-86.53,48.16c0,42.82,75.21,107,81.08,112.15a8,8,0,0,0,10.89,0c5.87-5.12,81.08-69.33,81.08-112.15A60,60,0,0,0,172,56Zm-44,56a12,12,0,1,1,12-12A12,12,0,0,1,128,112Z"></path>
+</svg>
+</button>
+</div>
+<div class="py-3">
+<h3 class="text-sm font-semibold text-slate-800">Elegant Evening Gown</h3>
+<p class="text-sm font-medium text-slate-500">$89.99</p>
+</div>
+</div>
+<div class="group relative flex flex-col">
+<div class="relative w-full overflow-hidden rounded-xl">
+<div class="aspect-[3/4] w-full bg-cover bg-center transition-transform duration-300 group-hover:scale-105" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuCkwMNj5In35y8lVwRUQwB-RULUqt1lH_Nwa_V7qBOiMg1s6L0hekeI4zbg4Lox9IEAZtbxnk-0XYzqgKISYHoht7ChbDddoHzSUPimWWii2UDSfOuRyXjnhtQmv59XEB_BCWokddXLXXDuoi7y1VBAX1iEz0Wn-YLOikXZ5J5Of4v85ZArhcNWvPlOJvCmzcMY2b6keRrkZ5MoQCj7kavLWMIruaWezyCez7kigrCuumuTr6JNR8lO2q5ZxrveoyeETrwa_hJFxpg");'></div>
+<button class="absolute top-2 right-2 flex h-8 w-8 items-center justify-center rounded-full bg-white/80 text-slate-700 backdrop-blur-sm transition-colors hover:bg-white">
+<svg fill="currentColor" height="20" viewBox="0 0 256 256" width="20" xmlns="http://www.w3.org/2000/svg">
+<path d="M128,216S28,160,28,92A52,52,0,0,1,128,64a52,52,0,0,1,100,28C228,160,128,216,128,216Zm-4-104a12,12,0,1,0-12-12A12,12,0,0,0,124,112Z" opacity="0.3"></path>
+<path d="M172,56a60,60,0,0,0-86.53,48.16c0,42.82,75.21,107,81.08,112.15a8,8,0,0,0,10.89,0c5.87-5.12,81.08-69.33,81.08-112.15A60,60,0,0,0,172,56Zm-44,56a12,12,0,1,1,12-12A12,12,0,0,1,128,112Z"></path>
+</svg>
+</button>
+</div>
+<div class="py-3">
+<h3 class="text-sm font-semibold text-slate-800">Beach Cover-Up</h3>
+<p class="text-sm font-medium text-slate-500">$29.99</p>
+</div>
+</div>
+</main>
+</div>
+<footer class="sticky bottom-0 bg-white/90 pb-safe-bottom backdrop-blur-sm">
+<div class="flex justify-around border-t border-slate-100 p-2">
+<a class="flex flex-1 flex-col items-center justify-center gap-1 rounded-lg px-2 py-1 text-[var(--primary-500)]" href="#">
+<svg fill="currentColor" height="24px" viewBox="0 0 256 256" width="24px" xmlns="http://www.w3.org/2000/svg">
+<path d="M224,115.55V208a16,16,0,0,1-16,16H168a16,16,0,0,1-16-16V168a8,8,0,0,0-8-8H112a8,8,0,0,0-8,8v40a16,16,0,0,1-16,16H48a16,16,0,0,1-16-16V115.55a16,16,0,0,1,5.17-11.78l80-75.48.11-.11a16,16,0,0,1,21.53,0,1.14,1.14,0,0,0,.11.11l80,75.48A16,16,0,0,1,224,115.55Z"></path>
+</svg>
+<p class="text-xs font-bold">Home</p>
+</a>
+<a class="flex flex-1 flex-col items-center justify-center gap-1 rounded-lg px-2 py-1 text-slate-500 transition-colors hover:text-[var(--primary-500)]" href="#">
+<svg fill="currentColor" height="24px" viewBox="0 0 256 256" width="24px" xmlns="http://www.w3.org/2000/svg">
+<path d="M208,56H180.28L166.65,35.56A8,8,0,0,0,160,32H96a8,8,0,0,0-6.65,3.56L75.71,56H48A24,24,0,0,0,24,80V192a24,24,0,0,0,24,24H208a24,24,0,0,0,24-24V80A24,24,0,0,0,208,56Zm8,136a8,8,0,0,1-8,8H48a8,8,0,0,1-8-8V80a8,8,0,0,1,8-8H80a8,8,0,0,0,6.66-3.56L100.28,48h55.43l13.63,20.44A8,8,0,0,0,176,72h32a8,8,0,0,1,8,8ZM128,88a44,44,0,1,0,44,44A44.05,44.05,0,0,0,128,88Zm0,72a28,28,0,1,1,28-28A28,28,0,0,1,128,160Z"></path>
+</svg>
+<p class="text-xs font-medium">Camera</p>
+</a>
+<a class="flex flex-1 flex-col items-center justify-center gap-1 rounded-lg px-2 py-1 text-slate-500 transition-colors hover:text-[var(--primary-500)]" href="#">
+<svg fill="currentColor" height="24px" viewBox="0 0 256 256" width="24px" xmlns="http://www.w3.org/2000/svg">
+<path d="M247.59,61.22,195.83,33A8,8,0,0,0,192,32H160a8,8,0,0,0-8,8,24,24,0,0,1-48,0,8,8,0,0,0-8-8H64a8,8,0,0,0-3.84,1L8.41,61.22A15.76,15.76,0,0,0,1.82,82.48l19.27,36.81A16.37,16.37,0,0,0,35.67,128H56v80a16,16,0,0,0,16,16H184a16,16,0,0,0,16-16V128h20.34a16.37,16.37,0,0,0,14.58-8.71l19.27-36.81A15.76,15.76,0,0,0,247.59,61.22ZM35.67,112a.62.62,0,0,1-.41-.13L16.09,75.26,56,53.48V112ZM184,208H72V48h16.8a40,40,0,0,0,78.38,0H184Zm36.75-96.14a.55.55,0,0,1-.41.14H200V53.48l39.92,21.78Z"></path>
+</svg>
+<p class="text-xs font-medium">Wardrobe</p>
+</a>
+<a class="flex flex-1 flex-col items-center justify-center gap-1 rounded-lg px-2 py-1 text-slate-500 transition-colors hover:text-[var(--primary-500)]" href="#">
+<svg fill="currentColor" height="24px" viewBox="0 0 256 256" width="24px" xmlns="http://www.w3.org/2000/svg">
+<path d="M230.92,212c-15.23-26.33-38.7-45.21-66.09-54.16a72,72,0,1,0-73.66,0C63.78,166.78,40.31,185.66,25.08,212a8,8,0,1,0,13.85,8c18.84-32.56,52.14-52,89.07-52s70.23,19.44,89.07,52a8,8,0,1,0,13.85-8ZM72,96a56,56,0,1,1,56,56A56.06,56.06,0,0,1,72,96Z"></path>
+</svg>
+<p class="text-xs font-medium">Profile</p>
+</a>
+</div>
+</footer>
+</div>
+
+</body></html>

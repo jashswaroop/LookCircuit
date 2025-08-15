@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta charset="utf-8"/>
+<link crossorigin="" href="https://fonts.gstatic.com/" rel="preconnect"/>
+<link as="style" href="https://fonts.googleapis.com/css2?display=swap&amp;family=Plus+Jakarta+Sans:wght@400;500;700;800&amp;family=Noto+Sans:wght@400;500;700;900" onload="this.rel='stylesheet'" rel="stylesheet"/>
+<title>Stitch Design</title>
+<link href="data:image/x-icon;base64," rel="icon" type="image/x-icon"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<style type="text/tailwindcss">
+      :root {
+        --primary-500: #2597f4;
+        --primary-600: #1c83d6;
+        --secondary-50: #f0f2f5;
+        --secondary-700: #4a5568;
+        --neutral-900: #111518;
+        --neutral-100: #f7fafc;
+        --neutral-0: #ffffff;
+      }
+      body {
+        font-family: "Plus Jakarta Sans", "Noto Sans", sans-serif;
+      }
+    </style>
+<style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+  </head>
+<body class="bg-[var(--neutral-100)]">
+<div class="relative mx-auto flex w-full max-w-sm min-h-screen flex-col justify-between bg-[var(--neutral-0)] group/design-root">
+<div class="flex flex-col">
+<header class="flex items-center justify-between p-4">
+<button class="text-neutral-900 flex size-10 items-center justify-center rounded-full hover:bg-[var(--secondary-50)]">
+<svg fill="currentColor" height="24px" viewBox="0 0 256 256" width="24px" xmlns="http://www.w3.org/2000/svg">
+<path d="M205.66,194.34a8,8,0,0,1-11.32,11.32L128,139.31,61.66,205.66a8,8,0,0,1-11.32-11.32L116.69,128,50.34,61.66A8,8,0,0,1,61.66,50.34L128,116.69l66.34-66.35a8,8,0,0,1,11.32,11.32L139.31,128Z"></path>
+</svg>
+</button>
+<h1 class="text-lg font-bold text-[var(--neutral-900)]">Analysis</h1>
+<div class="size-10"></div>
+</header>
+<div class="px-6 pb-4">
+<p class="text-center text-base font-normal text-[var(--secondary-700)]">
+            Follow the on-screen guide to analyze your face shape, skin tone, and body type.
+          </p>
+</div>
+<div class="relative mx-6 aspect-[3/4] overflow-hidden rounded-2xl bg-[#111518] bg-cover bg-center shadow-lg" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuBteJAnHJt-sj01Myr95SF6lNKe_kcNsCKVhn4pNDKmqjryriaod2tfJSBilKOL9KgbT383wzs2u78ZB7oRDvEICyhjy9FuJUh7a5JMJ1zxUedYDqBpg-GU4s24I3G5lmG86UfYGUhBc-O_ku7TMwS_YoDfpslLTj7G6-18-Jh5G-8FZ8TcGC6jYYioIf0gL9yiTKpojGT-zHJ566xsXK5sJRVvWVDz7a3E00nhXwbtXqHGRi0WJYra4W7xbWsgg64aBBDU5BFEQuk");'>
+<div class="absolute inset-0 flex items-center justify-center bg-black/20 backdrop-blur-sm">
+<button class="flex size-20 items-center justify-center rounded-full bg-white/20 text-[var(--neutral-0)] transition-transform hover:scale-110">
+<svg fill="currentColor" height="36px" viewBox="0 0 256 256" width="36px" xmlns="http://www.w3.org/2000/svg">
+<path d="M240,128a15.74,15.74,0,0,1-7.6,13.51L88.32,229.65a16,16,0,0,1-16.2.3A15.86,15.86,0,0,1,64,216.13V39.87a15.86,15.86,0,0,1,8.12-13.82,16,16,0,0,1,16.2.3L232.4,114.49A15.74,15.74,0,0,1,240,128Z"></path>
+</svg>
+</button>
+</div>
+</div>
+<div class="flex flex-col gap-3 px-6 py-6">
+<button class="h-14 w-full rounded-xl bg-[var(--primary-500)] text-base font-bold text-[var(--neutral-0)] shadow-md transition-colors hover:bg-[var(--primary-600)]">
+            Start Analysis
+          </button>
+<button class="h-14 w-full rounded-xl bg-[var(--secondary-50)] text-base font-bold text-[var(--neutral-900)] transition-colors hover:bg-gray-200">
+            Skip for Now
+          </button>
+</div>
+</div>
+<footer class="sticky bottom-0 bg-[var(--neutral-0)] pb-4">
+<div class="mx-4 flex items-center justify-around rounded-full border border-gray-200 bg-[var(--neutral-0)] p-2 shadow-sm">
+<a class="flex flex-col items-center gap-1 p-2 text-gray-500" href="#">
+<svg class="h-6 w-6" fill="currentColor" height="24px" viewBox="0 0 256 256" width="24px" xmlns="http://www.w3.org/2000/svg">
+<path d="M218.83,103.77l-80-75.48a1.14,1.14,0,0,1-.11-.11,16,16,0,0,0-21.53,0l-.11.11L37.17,103.77A16,16,0,0,0,32,115.55V208a16,16,0,0,0,16,16H96a16,16,0,0,0,16-16V160h32v48a16,16,0,0,0,16,16h48a16,16,0,0,0,16-16V115.55A16,16,0,0,0,218.83,103.77ZM208,208H160V160a16,16,0,0,0-16-16H112a16,16,0,0,0-16,16v48H48V115.55l.11-.1L128,40l79.9,75.43.11.1Z"></path>
+</svg>
+</a>
+<a class="flex flex-col items-center gap-1 rounded-full bg-[var(--primary-500)] p-3 text-[var(--neutral-0)]" href="#">
+<svg class="h-7 w-7" fill="currentColor" height="24px" viewBox="0 0 256 256" width="24px" xmlns="http://www.w3.org/2000/svg">
+<path d="M208,56H180.28L166.65,35.56A8,8,0,0,0,160,32H96a8,8,0,0,0-6.65,3.56L75.71,56H48A24,24,0,0,0,24,80V192a24,24,0,0,0,24,24H208a24,24,0,0,0,24-24V80A24,24,0,0,0,208,56Zm-44,76a36,36,0,1,1-36-36A36,36,0,0,1,164,132Z"></path>
+</svg>
+</a>
+<a class="flex flex-col items-center gap-1 p-2 text-gray-500" href="#">
+<svg class="h-6 w-6" fill="currentColor" height="24px" viewBox="0 0 256 256" width="24px" xmlns="http://www.w3.org/2000/svg">
+<path d="M214.7,209.7a1.89,1.89,0,0,0-.11-.25l-45.48-96.86,20.5-32.18a1.74,1.74,0,0,0,.11-.18,16,16,0,0,0,0-16.46c-.09-.16-.2-.32-.3-.47L168,32.7V8a8,8,0,0,0-16,0V32.42L146.74,39a24,24,0,0,1-37.48,0L104,32.42V8A8,8,0,0,0,88,8V32.7L66.58,63.3c-.1.15-.21.31-.3.47a16,16,0,0,0,0,16.46,1.74,1.74,0,0,0,.11.18l20.5,32.18L41.41,209.45a1.89,1.89,0,0,0-.11.25A16,16,0,0,0,56,232H200a16,16,0,0,0,14.71-22.3ZM80,72,96.43,48.57l.33.42a40,40,0,0,0,62.48,0l.33-.42L176,72l-20.38,32H100.39ZM56,216l45.07-96h53.84L200,216Z"></path>
+</svg>
+</a>
+<a class="flex flex-col items-center gap-1 p-2 text-gray-500" href="#">
+<svg class="h-6 w-6" fill="currentColor" height="24px" viewBox="0 0 256 256" width="24px" xmlns="http://www.w3.org/2000/svg">
+<path d="M230.92,212c-15.23-26.33-38.7-45.21-66.09-54.16a72,72,0,1,0-73.66,0C63.78,166.78,40.31,185.66,25.08,212a8,8,0,1,0,13.85,8c18.84-32.56,52.14-52,89.07-52s70.23,19.44,89.07,52a8,8,0,1,0,13.85-8ZM72,96a56,56,0,1,1,56,56A56.06,56.06,0,0,1,72,96Z"></path>
+</svg>
+</a>
+</div>
+</footer>
+</div>
+
+</body></html>

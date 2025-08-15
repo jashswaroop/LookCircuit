@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Stitch Design</title>
+<link href="data:image/x-icon;base64," rel="icon" type="image/x-icon"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link crossorigin="" href="https://fonts.gstatic.com/" rel="preconnect"/>
+<link as="style" href="https://fonts.googleapis.com/css2?display=swap&amp;family=Noto+Sans%3Awght%40400%3B500%3B700%3B900&amp;family=Plus+Jakarta+Sans%3Awght%40400%3B500%3B700%3B800" onload="this.rel='stylesheet'" rel="stylesheet"/>
+<style type="text/tailwindcss">
+      :root {
+        --primary-color: #2597f4;
+        --background-color: #f7f8fa;
+        --text-primary: #111518;
+        --text-secondary: #60778a;
+        --card-background: #ffffff;
+      }
+      body {
+        font-family: 'Plus Jakarta Sans', 'Noto Sans', sans-serif;
+        background-color: var(--background-color);
+      }
+    </style>
+<style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+  </head>
+<body class="bg-[var(--background-color)]">
+<div class="relative flex size-full min-h-screen flex-col justify-between group/design-root overflow-x-hidden">
+<div class="flex-grow">
+<header class="sticky top-0 z-10 bg-[var(--background-color)]/80 backdrop-blur-sm">
+<div class="flex items-center p-4 justify-between">
+<button class="text-[var(--text-primary)] flex size-10 shrink-0 items-center justify-center rounded-full hover:bg-gray-200 transition-colors">
+<svg fill="currentColor" height="24px" viewBox="0 0 256 256" width="24px" xmlns="http://www.w3.org/2000/svg">
+<path d="M224,128a8,8,0,0,1-8,8H59.31l58.35,58.34a8,8,0,0,1-11.32,11.32l-72-72a8,8,0,0,1,0-11.32l72-72a8,8,0,0,1,11.32,11.32L59.31,120H216A8,8,0,0,1,224,128Z"></path>
+</svg>
+</button>
+<h1 class="text-[var(--text-primary)] text-lg font-bold leading-tight tracking-[-0.015em]">Profile</h1>
+<button class="text-[var(--text-primary)] flex size-10 shrink-0 items-center justify-center rounded-full hover:bg-gray-200 transition-colors">
+<svg fill="currentColor" height="24px" viewBox="0 0 256 256" width="24px" xmlns="http://www.w3.org/2000/svg"><path d="M227.31,73.37,182.63,28.68a16,16,0,0,0-22.63,0L36.69,152A15.86,15.86,0,0,0,32,163.31V208a16,16,0,0,0,16,16H92.69A15.86,15.86,0,0,0,104,219.31L227.31,96a16,16,0,0,0,0-22.63ZM92.69,208H48V163.31l88-88L180.69,120ZM192,108.68,147.31,64l24-24L216,84.68Z"></path></svg>
+</button>
+</div>
+</header>
+<main class="p-4 space-y-6">
+<section class="flex flex-col items-center text-center">
+<div class="relative mb-4">
+<div class="bg-center bg-no-repeat aspect-square bg-cover rounded-full h-32 w-32 ring-4 ring-white shadow-lg" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuC5bS6xwokOOzjkxOdf4G6TzisBX4zkbFrTZmy9liVJikPqLfgJ_8N3-N_AQ4tzRgtYkjUfI-o4oLQcMvrTmTXY0EPyuF0p0wi2xdFhaT67mtWTlsx1sn2oHcHNJt3emSpWhHKmHbufN6euB9zGpqy16RqLzUWkFJ_VJFCSpud-tqDM9qmHdc_7QswuEY76G7Tk6bom-5Cl1fUIFY8m8fFJC6YXAuACdM-DmewVI-9Hh_bbPfwNI2_m_HHEfY-ndgDxkwTdpeHO1vw");'></div>
+</div>
+<h2 class="text-[var(--text-primary)] text-2xl font-bold leading-tight tracking-[-0.015em]">Sophia Carter</h2>
+<p class="text-[var(--text-secondary)] text-base font-normal leading-normal">@sophia.carter</p>
+<p class="text-[var(--text-secondary)] text-sm font-normal leading-normal">Joined 2023</p>
+</section>
+<section>
+<h3 class="text-[var(--text-primary)] text-lg font-bold leading-tight tracking-[-0.015em] mb-3 px-2">Personal Details</h3>
+<div class="bg-[var(--card-background)] rounded-lg shadow-sm">
+<div class="flex items-center justify-between p-4 border-b border-gray-100">
+<p class="text-[var(--text-primary)] text-base font-medium">Gender</p>
+<p class="text-[var(--text-secondary)] text-base">Female</p>
+</div>
+<div class="flex items-center justify-between p-4 border-b border-gray-100">
+<p class="text-[var(--text-primary)] text-base font-medium">Age</p>
+<p class="text-[var(--text-secondary)] text-base">28</p>
+</div>
+<div class="flex items-center justify-between p-4">
+<p class="text-[var(--text-primary)] text-base font-medium">Location</p>
+<p class="text-[var(--text-secondary)] text-base">United States</p>
+</div>
+</div>
+</section>
+<section>
+<h3 class="text-[var(--text-primary)] text-lg font-bold leading-tight tracking-[-0.015em] mb-3 px-2">Style Preferences</h3>
+<div class="bg-[var(--card-background)] rounded-lg shadow-sm">
+<div class="flex items-center justify-between p-4 border-b border-gray-100">
+<p class="text-[var(--text-primary)] text-base font-medium">Style</p>
+<div class="flex gap-2">
+<span class="bg-blue-100 text-[var(--primary-color)] text-sm font-medium px-2.5 py-0.5 rounded-full">Casual</span>
+<span class="bg-blue-100 text-[var(--primary-color)] text-sm font-medium px-2.5 py-0.5 rounded-full">Chic</span>
+<span class="bg-blue-100 text-[var(--primary-color)] text-sm font-medium px-2.5 py-0.5 rounded-full">Bohemian</span>
+</div>
+</div>
+<div class="flex items-center justify-between p-4">
+<p class="text-[var(--text-primary)] text-base font-medium">Clothing</p>
+<p class="text-[var(--text-secondary)] text-base">Dresses, Jeans, Tops</p>
+</div>
+</div>
+</section>
+<section>
+<div class="flex justify-between items-center mb-3 px-2">
+<h3 class="text-[var(--text-primary)] text-lg font-bold leading-tight tracking-[-0.015em]">Analysis Results</h3>
+<a class="text-[var(--primary-color)] text-sm font-semibold hover:underline" href="#">View Insights</a>
+</div>
+<div class="grid grid-cols-3 gap-3">
+<div class="bg-[var(--card-background)] rounded-lg shadow-sm p-4 flex flex-col items-center justify-center aspect-square text-center">
+<p class="text-[var(--text-primary)] text-base font-medium mb-1">Face Shape</p>
+<p class="text-[var(--text-secondary)] text-sm">Oval</p>
+</div>
+<div class="bg-[var(--card-background)] rounded-lg shadow-sm p-4 flex flex-col items-center justify-center aspect-square text-center">
+<p class="text-[var(--text-primary)] text-base font-medium mb-1">Skin Tone</p>
+<p class="text-[var(--text-secondary)] text-sm">Warm</p>
+</div>
+<div class="bg-[var(--card-background)] rounded-lg shadow-sm p-4 flex flex-col items-center justify-center aspect-square text-center">
+<p class="text-[var(--text-primary)] text-base font-medium mb-1">Body Type</p>
+<p class="text-[var(--text-secondary)] text-sm">Hourglass</p>
+</div>
+</div>
+</section>
+</main>
+</div>
+<footer class="sticky bottom-0 bg-white/90 backdrop-blur-sm border-t border-gray-100">
+<nav class="flex justify-around items-center h-20">
+<a class="flex flex-col items-center justify-center gap-1 text-[var(--text-secondary)]" href="#">
+<svg fill="currentColor" height="24px" viewBox="0 0 256 256" width="24px" xmlns="http://www.w3.org/2000/svg"><path d="M218.83,103.77l-80-75.48a1.14,1.14,0,0,1-.11-.11,16,16,0,0,0-21.53,0l-.11.11L37.17,103.77A16,16,0,0,0,32,115.55V208a16,16,0,0,0,16,16H96a16,16,0,0,0,16-16V160h32v48a16,16,0,0,0,16,16h48a16,16,0,0,0,16-16V115.55A16,16,0,0,0,218.83,103.77ZM208,208H160V160a16,16,0,0,0-16-16H112a16,16,0,0,0-16,16v48H48V115.55l.11-.1L128,40l79.9,75.43.11.1Z"></path></svg>
+<p class="text-xs font-medium tracking-[0.015em]">Home</p>
+</a>
+<a class="flex flex-col items-center justify-center gap-1 text-[var(--text-secondary)]" href="#">
+<svg fill="currentColor" height="24px" viewBox="0 0 256 256" width="24px" xmlns="http://www.w3.org/2000/svg"><path d="M208,56H180.28L166.65,35.56A8,8,0,0,0,160,32H96a8,8,0,0,0-6.65,3.56L75.71,56H48A24,24,0,0,0,24,80V192a24,24,0,0,0,24,24H208a24,24,0,0,0,24-24V80A24,24,0,0,0,208,56Zm8,136a8,8,0,0,1-8,8H48a8,8,0,0,1-8-8V80a8,8,0,0,1,8-8H80a8,8,0,0,0,6.66-3.56L100.28,48h55.43l13.63,20.44A8,8,0,0,0,176,72h32a8,8,0,0,1,8,8ZM128,88a44,44,0,1,0,44,44A44.05,44.05,0,0,0,128,88Zm0,72a28,28,0,1,1,28-28A28,28,0,0,1,128,160Z"></path></svg>
+<p class="text-xs font-medium tracking-[0.015em]">Camera</p>
+</a>
+<a class="flex flex-col items-center justify-center gap-1 text-[var(--text-secondary)]" href="#">
+<svg fill="currentColor" height="24px" viewBox="0 0 256 256" width="24px" xmlns="http://www.w3.org/2000/svg"><path d="M247.59,61.22,195.83,33A8,8,0,0,0,192,32H160a8,8,0,0,0-8,8,24,24,0,0,1-48,0,8,8,0,0,0-8-8H64a8,8,0,0,0-3.84,1L8.41,61.22A15.76,15.76,0,0,0,1.82,82.48l19.27,36.81A16.37,16.37,0,0,0,35.67,128H56v80a16,16,0,0,0,16,16H184a16,16,0,0,0,16-16V128h20.34a16.37,16.37,0,0,0,14.58-8.71l19.27-36.81A15.76,15.76,0,0,0,247.59,61.22ZM35.67,112a.62.62,0,0,1-.41-.13L16.09,75.26,56,53.48V112ZM184,208H72V48h16.8a40,40,0,0,0,78.38,0H184Zm36.75-96.14a.55.55,0,0,1-.41.14H200V53.48l39.92,21.78Z"></path></svg>
+<p class="text-xs font-medium tracking-[0.015em]">Wardrobe</p>
+</a>
+<a class="flex flex-col items-center justify-center gap-1 text-[var(--primary-color)]" href="#">
+<svg fill="currentColor" height="24px" viewBox="0 0 256 256" width="24px" xmlns="http://www.w3.org/2000/svg"><path d="M230.93,220a8,8,0,0,1-6.93,4H32a8,8,0,0,1-6.92-12c15.23-26.33,38.7-45.21,66.09-54.16a72,72,0,1,1,73.66,0c27.39,8.95,50.86,27.83,66.09,54.16A8,8,0,0,1,230.93,220Z"></path></svg>
+<p class="text-xs font-bold tracking-[0.015em]">Profile</p>
+</a>
+</nav>
+</footer>
+</div>
+
+</body></html>

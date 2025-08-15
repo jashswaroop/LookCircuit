@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Stitch Design</title>
+<link href="data:image/x-icon;base64," rel="icon" type="image/x-icon"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&amp;display=swap" rel="stylesheet"/>
+<style type="text/tailwindcss">
+        :root {
+            --primary-50: #eff6ff;
+            --primary-100: #dbeafe;
+            --primary-200: #bfdbfe;
+            --primary-300: #93c5fd;
+            --primary-400: #60a5fa;
+            --primary-500: #3b82f6;
+            --primary-600: #2563eb;
+            --primary-700: #1d4ed8;
+            --primary-800: #1e40af;
+            --primary-900: #1e3a8a;
+            --primary-950: #172554;
+            --secondary-50: #fdf2f8;
+            --secondary-100: #fce7f3;
+            --secondary-200: #fbcfe8;
+            --secondary-300: #f9a8d4;
+            --secondary-400: #f472b6;
+            --secondary-500: #ec4899;
+            --secondary-600: #db2777;
+            --secondary-700: #be185d;
+            --secondary-800: #9d174d;
+            --secondary-900: #831843;
+            --secondary-950: #500724;
+        }
+        body {
+            font-family: 'Plus Jakarta Sans', sans-serif;
+        }
+        .perspective-1000 {
+            perspective: 1000px;
+        }
+        .transform-style-3d {
+            transform-style: preserve-3d;
+        }
+        .rotate-y-15 {
+            transform: rotateY(15deg);
+        }
+        .group-hover\:rotate-y-0 {
+            transition: transform 0.5s;
+        }
+        .group-hover\:rotate-y-0:hover {
+            transform: rotateY(0);
+        }
+    </style>
+<style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+  </head>
+<body class="bg-gray-50">
+<div class="relative flex size-full min-h-screen flex-col bg-white group/design-root overflow-x-hidden">
+<div class="flex-grow">
+<header class="sticky top-0 z-10 bg-white/80 backdrop-blur-sm">
+<div class="flex items-center p-4 justify-between">
+<button class="text-gray-800 flex size-10 items-center justify-center rounded-full hover:bg-gray-100 transition-colors">
+<svg fill="currentColor" height="24px" viewBox="0 0 256 256" width="24px" xmlns="http://www.w3.org/2000/svg">
+<path d="M224,128a8,8,0,0,1-8,8H59.31l58.35,58.34a8,8,0,0,1-11.32,11.32l-72-72a8,8,0,0,1,0-11.32l72-72a8,8,0,0,1,11.32,11.32L59.31,120H216A8,8,0,0,1,224,128Z"></path>
+</svg>
+</button>
+<h1 class="text-lg font-bold text-gray-900">Denim Jacket</h1>
+<button class="text-pink-500 flex size-10 items-center justify-center rounded-full hover:bg-pink-50 transition-colors">
+<svg fill="currentColor" height="24px" viewBox="0 0 256 256" width="24px" xmlns="http://www.w3.org/2000/svg">
+<path d="M178,32c-20.65,0-38.73,8.88-50,23.89C116.73,40.88,98.65,32,78,32A62.07,62.07,0,0,0,16,94c0,70,103.79,126.66,108.21,129a8,8,0,0,0,7.58,0C136.21,220.66,240,164,240,94A62.07,62.07,0,0,0,178,32ZM128,206.8C109.74,196.16,32,147.69,32,94A46.06,46.06,0,0,1,78,48c19.45,0,35.78,10.36,42.6,27a8,8,0,0,0,14.8,0c6.82-16.67,23.15-27,42.6-27a46.06,46.06,0,0,1,46,46C224,147.61,146.24,196.15,128,206.8Z"></path>
+</svg>
+</button>
+</div>
+</header>
+<main class="p-4">
+<div class="mb-6 perspective-1000">
+<div class="w-full aspect-[4/5] bg-center bg-no-repeat bg-cover rounded-3xl shadow-lg transform-style-3d rotate-y-15 group-hover:rotate-y-0 transition-transform duration-500 ease-in-out" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuC2SoC1ae2R7hV5tbGL7pqvZz-4FYhbv9FVnqMe-hnOnHakiqk5n2tbeZvvWWAKIizYssujf3zoXaj-Ri-PHAkrKFgOm_EqUfIWSU1BuqMfaJLnTl1LafVw4cYu25cIsJW1JvModgNcgvJyspybhnpakt5s1gtAEYWYcZm5n5WVuGGDNOdT2uKWe4_H37XS8tp8PrwE2-LjktrGTTYxzuY4ffNxXksUNnPSQ7wtWITBSz9DJxEG6pnKlRJEoz273a_TTpGtu-9RcDU");'>
+</div>
+</div>
+<div class="mb-6">
+<h2 class="text-2xl font-bold text-gray-900 mb-2">Denim Jacket</h2>
+<p class="text-gray-600 leading-relaxed">
+                        A classic denim jacket, perfect for layering and adding a casual touch to any outfit. Made from durable cotton denim, it features a button-up front, two chest pockets, and adjustable cuffs.
+                    </p>
+</div>
+<div class="bg-gray-100 rounded-2xl p-4 mb-6">
+<h3 class="text-lg font-bold text-gray-900 mb-4">Details</h3>
+<div class="space-y-3">
+<div class="flex justify-between items-center">
+<p class="text-gray-500 text-sm font-medium">Brand</p>
+<p class="text-gray-800 text-sm font-semibold">Levi's</p>
+</div>
+<div class="flex justify-between items-center">
+<p class="text-gray-500 text-sm font-medium">Size</p>
+<p class="text-gray-800 text-sm font-semibold">M</p>
+</div>
+<div class="flex justify-between items-center">
+<p class="text-gray-500 text-sm font-medium">Color</p>
+<span class="inline-flex items-center gap-2">
+<span class="w-4 h-4 rounded-full bg-blue-500 border border-gray-200"></span>
+<p class="text-gray-800 text-sm font-semibold">Blue</p>
+</span>
+</div>
+<div class="flex justify-between items-center">
+<p class="text-gray-500 text-sm font-medium">Material</p>
+<p class="text-gray-800 text-sm font-semibold">Cotton</p>
+</div>
+<div class="flex justify-between items-center">
+<p class="text-gray-500 text-sm font-medium">Purchase Date</p>
+<p class="text-gray-800 text-sm font-semibold">2023-05-15</p>
+</div>
+<div class="flex justify-between items-center">
+<p class="text-gray-500 text-sm font-medium">Price</p>
+<p class="text-gray-800 text-sm font-semibold">$79.99</p>
+</div>
+</div>
+</div>
+<div>
+<h3 class="text-xl font-bold text-gray-900 mb-4">Shop Similar</h3>
+<div class="flex space-x-4 overflow-x-auto pb-4 [-ms-scrollbar-style:none] [scrollbar-width:none] [&amp;::-webkit-scrollbar]:hidden">
+<div class="flex-shrink-0 w-40 group">
+<div class="relative overflow-hidden rounded-2xl mb-2">
+<div class="w-full bg-center bg-no-repeat aspect-[3/4] bg-cover rounded-2xl transition-transform duration-300 group-hover:scale-105" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuD3r8twI5adzkRkBTUWRnUionaOTXjH9b5HNl0q-BLt_6QYvvTNkSB-4J49gJ2fDB7fVAmmfJ5rJNCLvEgyWAWcbjaifufKFrWHGCs1SAPGSAyXePmyky22ejETlgsPhnlh9nziwAZPikGE-hk66R4TglrV0gRA9r0VPARepWbMSSx1MGLNgE1HU7LWwyPwdh895iwKrZjQsVB9G7etAUfUGbBBqOVs3xMTwdCjNsHwmAc8mn71jTPQcOEo1-BezCNr2pVuK6lztNg");'></div>
+<button class="absolute top-2 right-2 bg-white/70 backdrop-blur-sm rounded-full p-1.5 text-pink-500 hover:text-pink-600 transition-colors">
+<svg fill="currentColor" height="16" viewBox="0 0 256 256" width="16" xmlns="http://www.w3.org/2000/svg"><path d="M178,32c-20.65,0-38.73,8.88-50,23.89C116.73,40.88,98.65,32,78,32A62.07,62.07,0,0,0,16,94c0,70,103.79,126.66,108.21,129a8,8,0,0,0,7.58,0C136.21,220.66,240,164,240,94A62.07,62.07,0,0,0,178,32ZM128,206.8C109.74,196.16,32,147.69,32,94A46.06,46.06,0,0,1,78,48c19.45,0,35.78,10.36,42.6,27a8,8,0,0,0,14.8,0c6.82-16.67,23.15-27,42.6-27a46.06,46.06,0,0,1,46,46C224,147.61,146.24,196.15,128,206.8Z"></path></svg>
+</button>
+</div>
+<div>
+<p class="text-gray-800 text-sm font-semibold truncate">Levi's Denim Jacket</p>
+<p class="text-gray-500 text-sm">$89.99</p>
+</div>
+</div>
+<div class="flex-shrink-0 w-40 group">
+<div class="relative overflow-hidden rounded-2xl mb-2">
+<div class="w-full bg-center bg-no-repeat aspect-[3/4] bg-cover rounded-2xl transition-transform duration-300 group-hover:scale-105" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuBkmC5AaNxpV_2JBYgFxtWSylgUZfTvTNJJT8Eu67GOLslGqw2vIidl-_RbduuWmIjwCyqHAsQLRuoSCV-Ot8wGv4rIx4v_Yc8rJ1IjELM6dZ5RLZOVL2lpTF53yHUXDossF_Cq2_RBciELGW7sLULcKY4Dvj8oKMwnP61nVtzNb4z_odrtrVa2IOYYY54v3E9WpaKrYSdds47qeqSxkb6zk9xA4KAE4P3d5gt6fzRNLs_hRGHYob9MQ4isuTUhYob9_XCjYNHTT_g");'></div>
+<button class="absolute top-2 right-2 bg-white/70 backdrop-blur-sm rounded-full p-1.5 text-pink-500 hover:text-pink-600 transition-colors">
+<svg fill="currentColor" height="16" viewBox="0 0 256 256" width="16" xmlns="http://www.w3.org/2000/svg"><path d="M178,32c-20.65,0-38.73,8.88-50,23.89C116.73,40.88,98.65,32,78,32A62.07,62.07,0,0,0,16,94c0,70,103.79,126.66,108.21,129a8,8,0,0,0,7.58,0C136.21,220.66,240,164,240,94A62.07,62.07,0,0,0,178,32ZM128,206.8C109.74,196.16,32,147.69,32,94A46.06,46.06,0,0,1,78,48c19.45,0,35.78,10.36,42.6,27a8,8,0,0,0,14.8,0c6.82-16.67,23.15-27,42.6-27a46.06,46.06,0,0,1,46,46C224,147.61,146.24,196.15,128,206.8Z"></path></svg>
+</button>
+</div>
+<div>
+<p class="text-gray-800 text-sm font-semibold truncate">Gap Denim Jacket</p>
+<p class="text-gray-500 text-sm">$69.99</p>
+</div>
+</div>
+<div class="flex-shrink-0 w-40 group">
+<div class="relative overflow-hidden rounded-2xl mb-2">
+<div class="w-full bg-center bg-no-repeat aspect-[3/4] bg-cover rounded-2xl transition-transform duration-300 group-hover:scale-105" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuA7JwawoqnRGwPiVs-bkloZmmIg05vtiP6Buk_mfcoWD6gb2XQQZg2b8hPJDD9YaGugQvr0DUeDKZEj8SYhEMTUO99Bg_hgRMtQ2CGLt8J2w0hIj3OpcVpjyqpfHVLUw8CaRL6U7EKp0pwgMYC9b2Jgcl7iP8854h9HRlp5bRXkaLEFEaeKjfu4c3KfVce1L54HupWQAoghK8XfGpi3mM5Mn_u8ljWkQpyTmB0YNEUoJw8qygGQ5jPsEHfmsmizWQ7UlsTUSmiXZ7M");'></div>
+<button class="absolute top-2 right-2 bg-white/70 backdrop-blur-sm rounded-full p-1.5 text-pink-500 hover:text-pink-600 transition-colors">
+<svg fill="currentColor" height="16" viewBox="0 0 256 256" width="16" xmlns="http://www.w3.org/2000/svg"><path d="M178,32c-20.65,0-38.73,8.88-50,23.89C116.73,40.88,98.65,32,78,32A62.07,62.07,0,0,0,16,94c0,70,103.79,126.66,108.21,129a8,8,0,0,0,7.58,0C136.21,220.66,240,164,240,94A62.07,62.07,0,0,0,178,32ZM128,206.8C109.74,196.16,32,147.69,32,94A46.06,46.06,0,0,1,78,48c19.45,0,35.78,10.36,42.6,27a8,8,0,0,0,14.8,0c6.82-16.67,23.15-27,42.6-27a46.06,46.06,0,0,1,46,46C224,147.61,146.24,196.15,128,206.8Z"></path></svg>
+</button>
+</div>
+<div>
+<p class="text-gray-800 text-sm font-semibold truncate">Old Navy Denim Jacket</p>
+<p class="text-gray-500 text-sm">$59.99</p>
+</div>
+</div>
+</div>
+</div>
+</main>
+</div>
+<footer class="sticky bottom-0 bg-white border-t border-gray-200 shadow-[0_-1px_3px_rgba(0,0,0,0.05)]">
+<nav class="flex justify-around items-center h-16 px-2">
+<a class="flex flex-col items-center justify-center gap-1 text-gray-500 hover:text-primary-500 transition-colors w-1/4" href="#">
+<svg fill="currentColor" height="24px" viewBox="0 0 256 256" width="24px" xmlns="http://www.w3.org/2000/svg">
+<path d="M218.83,103.77l-80-75.48a1.14,1.14,0,0,1-.11-.11,16,16,0,0,0-21.53,0l-.11.11L37.17,103.77A16,16,0,0,0,32,115.55V208a16,16,0,0,0,16,16H96a16,16,0,0,0,16-16V160h32v48a16,16,0,0,0,16,16h48a16,16,0,0,0,16-16V115.55A16,16,0,0,0,218.83,103.77ZM208,208H160V160a16,16,0,0,0-16-16H112a16,16,0,0,0-16,16v48H48V115.55l.11-.1L128,40l79.9,75.43.11.1Z"></path>
+</svg>
+<p class="text-xs font-medium">Home</p>
+</a>
+<a class="flex flex-col items-center justify-center gap-1 text-gray-500 hover:text-primary-500 transition-colors w-1/4" href="#">
+<svg fill="currentColor" height="24px" viewBox="0 0 256 256" width="24px" xmlns="http://www.w3.org/2000/svg">
+<path d="M208,56H180.28L166.65,35.56A8,8,0,0,0,160,32H96a8,8,0,0,0-6.65,3.56L75.71,56H48A24,24,0,0,0,24,80V192a24,24,0,0,0,24,24H208a24,24,0,0,0,24-24V80A24,24,0,0,0,208,56Zm8,136a8,8,0,0,1-8,8H48a8,8,0,0,1-8-8V80a8,8,0,0,1,8-8H80a8,8,0,0,0,6.66-3.56L100.28,48h55.43l13.63,20.44A8,8,0,0,0,176,72h32a8,8,0,0,1,8,8ZM128,88a44,44,0,1,0,44,44A44.05,44.05,0,0,0,128,88Zm0,72a28,28,0,1,1,28-28A28,28,0,0,1,128,160Z"></path>
+</svg>
+<p class="text-xs font-medium">Camera</p>
+</a>
+<a class="flex flex-col items-center justify-center gap-1 text-primary-500 font-bold w-1/4" href="#">
+<div class="bg-primary-500 text-white rounded-full p-3 -mt-8 shadow-lg shadow-primary-200">
+<svg fill="currentColor" height="28px" viewBox="0 0 256 256" width="28px" xmlns="http://www.w3.org/2000/svg">
+<path d="M66.26,80.23a15.26,15.26,0,0,1-1.65-12.17,15.54,15.54,0,0,1,2-4.76L88,32.7V8a8,8,0,0,1,8.53-8A8.17,8.17,0,0,1,104,8.27V32.42L109.25,39a23.91,23.91,0,0,0,19.13,9,24.67,24.67,0,0,0,18.71-9.43L152,32.42V8a8,8,0,0,1,8.53-8A8.17,8.17,0,0,1,168,8.27V32.7l21.42,30.6a15.54,15.54,0,0,1,2,4.76,15.26,15.26,0,0,1-1.65,12.17,1.74,1.74,0,0,0-.11.18l-13.86,21.74A4,4,0,0,1,172.4,104H83.6a4,4,0,0,1-3.37-1.85L66.37,80.41A1.74,1.74,0,0,0,66.26,80.23Zm148.5,129.56a2.52,2.52,0,0,0-.15-.34L173.69,122.3a4,4,0,0,0-3.63-2.3H85.94a4,4,0,0,0-3.63,2.3L41.39,209.45a2.52,2.52,0,0,0-.15.34A16.19,16.19,0,0,0,41.6,223,16,16,0,0,0,56,232H200a16,16,0,0,0,14.39-9A16.19,16.19,0,0,0,214.76,209.79Z"></path>
+</svg>
+</div>
+<p class="text-xs font-semibold mt-1">Wardrobe</p>
+</a>
+<a class="flex flex-col items-center justify-center gap-1 text-gray-500 hover:text-primary-500 transition-colors w-1/4" href="#">
+<svg fill="currentColor" height="24px" viewBox="0 0 256 256" width="24px" xmlns="http://www.w3.org/2000/svg">
+<path d="M230.92,212c-15.23-26.33-38.7-45.21-66.09-54.16a72,72,0,1,0-73.66,0C63.78,166.78,40.31,185.66,25.08,212a8,8,0,1,0,13.85,8c18.84-32.56,52.14-52,89.07-52s70.23,19.44,89.07,52a8,8,0,1,0,13.85-8ZM72,96a56,56,0,1,1,56,56A56.06,56.06,0,0,1,72,96Z"></path>
+</svg>
+<p class="text-xs font-medium">Profile</p>
+</a>
+</nav>
+</footer>
+</div>
+
+</body></html>

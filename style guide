@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Stitch Design</title>
+<link href="data:image/x-icon;base64," rel="icon" type="image/x-icon"/>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&amp;display=swap" rel="stylesheet"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<style type="text/tailwindcss">
+        :root {
+            --primary-color: #2597f4;
+            --secondary-color: #f0f2f5;
+            --text-primary: #111518;
+            --text-secondary: #60778a;
+            --background-color: #ffffff;
+        }
+        body {
+            font-family: 'Plus Jakarta Sans', sans-serif;
+        }
+        .active-filter {
+            @apply bg-[var(--primary-color)] text-white;
+        }
+        .inactive-filter {
+            @apply bg-[var(--secondary-color)] text-[var(--text-primary)];
+        }
+        .nav-active {
+            @apply text-[var(--primary-color)];
+        }
+        .nav-inactive {
+            @apply text-[var(--text-secondary)];
+        }
+    </style>
+<style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+  </head>
+<body class="bg-[var(--background-color)]">
+<div class="relative flex size-full min-h-screen flex-col justify-between group/design-root overflow-x-hidden">
+<div>
+<header class="sticky top-0 z-10 flex items-center justify-between border-b border-gray-200 bg-[var(--background-color)] px-4 py-3">
+<button class="text-[var(--text-primary)]">
+<svg fill="currentColor" height="24" viewBox="0 0 256 256" width="24" xmlns="http://www.w3.org/2000/svg">
+<path d="M224,128a8,8,0,0,1-8,8H59.31l58.35,58.34a8,8,0,0,1-11.32,11.32l-72-72a8,8,0,0,1,0-11.32l72-72a8,8,0,0,1,11.32,11.32L59.31,120H216A8,8,0,0,1,224,128Z"></path>
+</svg>
+</button>
+<h1 class="text-xl font-bold text-[var(--text-primary)]">Style Guide</h1>
+<div class="w-6"></div>
+</header>
+<div class="sticky top-[61px] z-10 bg-[var(--background-color)] px-4 py-3">
+<div class="flex items-center gap-3 overflow-x-auto pb-2 no-scrollbar">
+<button class="flex h-10 shrink-0 items-center justify-center gap-x-2 rounded-full px-4 text-sm font-semibold transition-all active-filter">All</button>
+<button class="flex h-10 shrink-0 items-center justify-center gap-x-2 rounded-full px-4 text-sm font-semibold transition-all inactive-filter">AI Enhanced</button>
+<button class="flex h-10 shrink-0 items-center justify-center gap-x-2 rounded-full px-4 text-sm font-semibold transition-all inactive-filter">Requested</button>
+</div>
+</div>
+<main class="grid grid-cols-1 gap-6 p-4">
+<div class="group/card relative flex transform cursor-pointer flex-col overflow-hidden rounded-xl bg-white shadow-md transition-all duration-300 ease-in-out hover:-translate-y-1 hover:shadow-lg">
+<div class="relative">
+<div class="h-64 w-full bg-cover bg-center" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuAsf_PtIGZDTRxtBIZ39yM0o38nWUBXl6QTnSNEp0V6aeS66e3Ja5uTdeBSVkyVn-39nhpoIKkNAdBHx0stOVpxvZdk-OH9MUemo9fV0GmvsUPwklqkD-h1ESdfaIPipz9uQnjPQkq0k4FjQDNRT4-xuaQF4G-vN4Yjdw7aa5U3BDelBJqOkqLvPT7USwRBvrMx1UA9cdKs2GzHsw2FOEQPuWljOyaqlvBercvtUrwDiaBTWr8Ecp7o4dr6F-YOb74CI_UWbKYboB8");'></div>
+<div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>
+</div>
+<div class="flex flex-1 flex-col p-4">
+<h3 class="text-lg font-bold text-[var(--text-primary)]">Vintage Leather Jacket</h3>
+<p class="mt-1 text-sm text-[var(--text-secondary)]">A classic piece with a modern twist, perfect for any season.</p>
+<div class="mt-4 flex items-center justify-between">
+<span class="text-lg font-bold text-[var(--primary-color)]">$120</span>
+<a class="rounded-full bg-[var(--primary-color)] px-4 py-2 text-sm font-bold text-white transition-colors hover:bg-blue-600" href="#">Shop Now</a>
+</div>
+</div>
+</div>
+<div class="group/card relative flex transform cursor-pointer flex-col overflow-hidden rounded-xl bg-white shadow-md transition-all duration-300 ease-in-out hover:-translate-y-1 hover:shadow-lg">
+<div class="relative">
+<div class="h-64 w-full bg-cover bg-center" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuDTrLojIjAYxqZj4eDvDldavuYowJeD0gtJpgq4tC7KRFdvcZQmD0IL3Py3fnPAEqq0uqx582ogCTUYCet7fAmA4bDusNXSz4C1e-jJGS-HgLzxNvJ5ewLJpmQlvZv0t7MByhFXb3h94t78sTBZ-6Q5hcaFlHAx5remKv5GhNxfe4xcqDwQbe04T3jboZ7lCCIqbxivnzcWWXRe_ye6r88yI4mmO7MbzTX5PnSbIhI-dPpWwWlMGxLr53sD49J-mcm46E4E7pLfJC0");'></div>
+<div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>
+</div>
+<div class="flex flex-1 flex-col p-4">
+<h3 class="text-lg font-bold text-[var(--text-primary)]">Striped Linen Shirt</h3>
+<p class="mt-1 text-sm text-[var(--text-secondary)]">Lightweight and breathable, ideal for a casual yet stylish look.</p>
+<div class="mt-4 flex items-center justify-between">
+<span class="text-lg font-bold text-[var(--primary-color)]">$85</span>
+<a class="rounded-full bg-[var(--primary-color)] px-4 py-2 text-sm font-bold text-white transition-colors hover:bg-blue-600" href="#">Shop Now</a>
+</div>
+</div>
+</div>
+<div class="group/card relative flex transform cursor-pointer flex-col overflow-hidden rounded-xl bg-white shadow-md transition-all duration-300 ease-in-out hover:-translate-y-1 hover:shadow-lg">
+<div class="relative">
+<div class="h-64 w-full bg-cover bg-center" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuDDTOgxvbEoRG5ha85Qk9nF3E4g8_oW71j6Ra1CS4JgIbhEQa5XF18irQvtyByOYaTUnnFsW-DabyGlUYazEZY4oJI1kqnsKDUU6bwyMtnZ2YLrY4OEIXO8e1kwYig1qgTSgdrcupGVGkZHh7exaR1XxNvspSq9tjFRN2dlibzQqqFbBu27B4tbYVjzMoqq6V4Gz4PvvIIPFw771E2o1PC9HHU6GWzCvfKSqnl3WHYMx2_nKHPPtUzHdzIH2r1aU5yt-hgK0ZHAlaA");'></div>
+<div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>
+</div>
+<div class="flex flex-1 flex-col p-4">
+<h3 class="text-lg font-bold text-[var(--text-primary)]">Tailored Black Trousers</h3>
+<p class="mt-1 text-sm text-[var(--text-secondary)]">Versatile and elegant, suitable for both formal and informal settings.</p>
+<div class="mt-4 flex items-center justify-between">
+<span class="text-lg font-bold text-[var(--primary-color)]">$150</span>
+<a class="rounded-full bg-[var(--primary-color)] px-4 py-2 text-sm font-bold text-white transition-colors hover:bg-blue-600" href="#">Shop Now</a>
+</div>
+</div>
+</div>
+</main>
+</div>
+<nav class="sticky bottom-0 z-10 grid grid-cols-4 items-center border-t border-gray-200 bg-[var(--background-color)] pb-3 pt-2">
+<a class="flex flex-col items-center justify-end gap-1 nav-active" href="#">
+<svg fill="currentColor" height="24" viewBox="0 0 256 256" width="24" xmlns="http://www.w3.org/2000/svg">
+<path d="M224,115.55V208a16,16,0,0,1-16,16H168a16,16,0,0,1-16-16V168a8,8,0,0,0-8-8H112a8,8,0,0,0-8,8v40a16,16,0,0,1-16,16H48a16,16,0,0,1-16-16V115.55a16,16,0,0,1,5.17-11.78l80-75.48.11-.11a16,16,0,0,1,21.53,0,1.14,1.14,0,0,0,.11.11l80,75.48A16,16,0,0,1,224,115.55Z"></path>
+</svg>
+<p class="text-xs font-medium tracking-wide">Home</p>
+</a>
+<a class="flex flex-col items-center justify-end gap-1 nav-inactive" href="#">
+<svg fill="currentColor" height="24" viewBox="0 0 256 256" width="24" xmlns="http://www.w3.org/2000/svg">
+<path d="M208,56H180.28L166.65,35.56A8,8,0,0,0,160,32H96a8,8,0,0,0-6.65,3.56L75.71,56H48A24,24,0,0,0,24,80V192a24,24,0,0,0,24,24H208a24,24,0,0,0,24-24V80A24,24,0,0,0,208,56Zm8,136a8,8,0,0,1-8,8H48a8,8,0,0,1-8-8V80a8,8,0,0,1,8-8H80a8,8,0,0,0,6.66-3.56L100.28,48h55.43l13.63,20.44A8,8,0,0,0,176,72h32a8,8,0,0,1,8,8ZM128,88a44,44,0,1,0,44,44A44.05,44.05,0,0,0,128,88Zm0,72a28,28,0,1,1,28-28A28,28,0,0,1,128,160Z"></path>
+</svg>
+<p class="text-xs font-medium tracking-wide">Camera</p>
+</a>
+<a class="flex flex-col items-center justify-end gap-1 nav-inactive" href="#">
+<svg fill="currentColor" height="24" viewBox="0 0 256 256" width="24" xmlns="http://www.w3.org/2000/svg">
+<path d="M247.59,61.22,195.83,33A8,8,0,0,0,192,32H160a8,8,0,0,0-8,8,24,24,0,0,1-48,0,8,8,0,0,0-8-8H64a8,8,0,0,0-3.84,1L8.41,61.22A15.76,15.76,0,0,0,1.82,82.48l19.27,36.81A16.37,16.37,0,0,0,35.67,128H56v80a16,16,0,0,0,16,16H184a16,16,0,0,0,16-16V128h20.34a16.37,16.37,0,0,0,14.58-8.71l19.27-36.81A15.76,15.76,0,0,0,247.59,61.22ZM35.67,112a.62.62,0,0,1-.41-.13L16.09,75.26,56,53.48V112ZM184,208H72V48h16.8a40,40,0,0,0,78.38,0H184Zm36.75-96.14a.55.55,0,0,1-.41.14H200V53.48l39.92,21.78Z"></path>
+</svg>
+<p class="text-xs font-medium tracking-wide">Wardrobe</p>
+</a>
+<a class="flex flex-col items-center justify-end gap-1 nav-inactive" href="#">
+<svg fill="currentColor" height="24" viewBox="0 0 256 256" width="24" xmlns="http://www.w3.org/2000/svg">
+<path d="M230.92,212c-15.23-26.33-38.7-45.21-66.09-54.16a72,72,0,1,0-73.66,0C63.78,166.78,40.31,185.66,25.08,212a8,8,0,1,0,13.85,8c18.84-32.56,52.14-52,89.07-52s70.23,19.44,89.07,52a8,8,0,1,0,13.85-8ZM72,96a56,56,0,1,1,56,56A56.06,56.06,0,0,1,72,96Z"></path>
+</svg>
+<p class="text-xs font-medium tracking-wide">Profile</p>
+</a>
+</nav>
+</div>
+
+</body></html>

@@ -1,0 +1,123 @@
+<html><head>
+<meta charset="utf-8"/>
+<link crossorigin="" href="https://fonts.gstatic.com/" rel="preconnect"/>
+<link as="style" href="https://fonts.googleapis.com/css2?display=swap&amp;family=Noto+Sans%3Awght%40400%3B500%3B700%3B900&amp;family=Plus+Jakarta+Sans%3Awght%40400%3B500%3B700%3B800" onload="this.rel='stylesheet'" rel="stylesheet"/>
+<title>Stitch Design</title>
+<link href="data:image/x-icon;base64," rel="icon" type="image/x-icon"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<style type="text/tailwindcss">
+      :root {
+        --primary-color: #2597f4;
+        --secondary-color: #f0f8ff;
+      }
+      body {
+        font-family: 'Plus Jakarta Sans', 'Noto Sans', sans-serif;
+      }
+    </style>
+<style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+  </head>
+<body>
+<div class="relative flex size-full min-h-screen flex-col bg-white justify-between group/design-root overflow-x-hidden">
+<div class="flex-grow">
+<header class="sticky top-0 z-10 flex items-center bg-white p-4 pb-2 justify-between border-b border-gray-200">
+<button class="text-gray-800 flex size-10 shrink-0 items-center justify-center rounded-full hover:bg-gray-100">
+<svg fill="currentColor" height="24px" viewBox="0 0 256 256" width="24px" xmlns="http://www.w3.org/2000/svg">
+<path d="M224,128a8,8,0,0,1-8,8H59.31l58.35,58.34a8,8,0,0,1-11.32,11.32l-72-72a8,8,0,0,1,0-11.32l72-72a8,8,0,0,1,11.32,11.32L59.31,120H216A8,8,0,0,1,224,128Z"></path>
+</svg>
+</button>
+<h1 class="text-gray-900 text-lg font-bold leading-tight tracking-[-0.015em] flex-1 text-center">Style Analysis</h1>
+<div class="size-10"></div>
+</header>
+<main class="p-4">
+<h2 class="text-gray-900 text-2xl font-bold leading-tight tracking-tight px-4 pb-4 pt-2">Your Style Insights</h2>
+<div class="space-y-6">
+<div class="bg-white rounded-2xl shadow-sm overflow-hidden">
+<div class="w-full bg-center bg-no-repeat aspect-video bg-cover" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuDuvVE0YI0Yoa5tncqnwPFq_eaYwzM__XDkcm170MsDXGKnXW7cXCmCdl7nWvLw-93E3cNlaiB4Ck4myhhaGXbUExE6ynNB5sKLuwSJJjFRz4Xd_WQQVv4wDBky7287uzWFQdUx7myOBYVbmrhJQBbK9T32V5SxvzbFq3kc2pCipzhtw98ix0A2vY1hDOOggZXjS0TDVSscP144umyv16rUfOlwlEyEYOY2XhpJF-IxlOF_mH4w8gyltMc86X81Z6frupBoii_F5us");'></div>
+<div class="p-4">
+<h3 class="text-gray-900 text-lg font-bold leading-tight tracking-[-0.015em]">Face Shape: Oval</h3>
+<p class="text-gray-600 text-base font-normal leading-relaxed mt-1">
+                  Your face shape is oval, which means you have a balanced and versatile look. Many styles will suit you, but consider frames that are as wide as or slightly wider than the broadest part of your face.
+                </p>
+</div>
+</div>
+<div class="bg-white rounded-2xl shadow-sm overflow-hidden">
+<div class="w-full bg-center bg-no-repeat aspect-video bg-cover" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuAge9K4dqDgxrwMOF7C3s0HqOkeNvlo8czZc6efqnLVRRNoyaybS3oaJGy95G8sei7SQCGNQzXIo5aRXfwKqGSSEZofaT8FpLfWZg5hQWFwFnrjZXtpxRxLPFTqtxNomnjuBlbuWj86urT5Hfwl8IfHQDD9plU4ESQXkU70LXdLgTSFcMXHoL1P9ztg0c-hFV0i9vdUr4GNyU-uKb1sPwDgTwGfdcK1R8dYodeH02Y979HG7zo-2dhobvZs3rHc19uSbel8L0DH7vA");'></div>
+<div class="p-4">
+<h3 class="text-gray-900 text-lg font-bold leading-tight tracking-[-0.015em]">Skin Tone: Warm</h3>
+<p class="text-gray-600 text-base font-normal leading-relaxed mt-1">
+                  Your skin tone is warm, characterized by golden or peachy undertones. Earthy colors like beige, olive green, and warm browns will complement your complexion beautifully.
+                </p>
+</div>
+</div>
+<div class="bg-white rounded-2xl shadow-sm overflow-hidden">
+<div class="w-full bg-center bg-no-repeat aspect-video bg-cover" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuAAmXUIsi1GBHkbH6yjNeHEuyoUdrVoWmf-lmNFsEIZKjyF2sDpvtV1MNjml3tf9yjk1cwj5LxyH_Nw-GYSHwMwh887wzjvQ0xTuKgDyMYvQGP3hQ5_XIQS_YkmrIcmLFQaM-ViFahDFv2ng60Hcu52uqsWKOR1Lwi0Dport2hnIYRye8qhS_t3h66EgF-7QQ3Vi8n8iBHrntyJKu4tAOofpmLXor306_Jc9M05FrjnT9rA8lL2AUHGi-GuHGYD85coyfTD5sxHXO4");'></div>
+<div class="p-4">
+<h3 class="text-gray-900 text-lg font-bold leading-tight tracking-[-0.015em]">Body Type: Hourglass</h3>
+<p class="text-gray-600 text-base font-normal leading-relaxed mt-1">
+                  You have an hourglass figure, with balanced shoulders and hips and a defined waist. Fitted clothing that accentuates your waist will highlight your natural curves.
+                </p>
+</div>
+</div>
+</div>
+<h2 class="text-gray-900 text-2xl font-bold leading-tight tracking-tight px-4 pb-4 pt-8">Style Recommendations</h2>
+<div class="flex overflow-x-auto [-ms-scrollbar-style:none] [scrollbar-width:none] [&amp;::-webkit-scrollbar]:hidden pb-4">
+<div class="flex items-start px-4 gap-4">
+<div class="flex flex-col gap-3 rounded-lg min-w-48 flex-shrink-0">
+<div class="w-full bg-center bg-no-repeat aspect-[3/4] bg-cover rounded-xl" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuAYBhydni7EbpaOqtV8tBNI8TXTfNS6o_wCQh9lmD5uTh9PEGADNJmfKflSlmnS7B5t9CysD_Zl94bI280FeWaI--uWHXlRT5zz-zcak8d2p9PNsMm9kbMF7tvgaY9fzaKaKcavf6poYDzKg2Evt3uUKe_0UOG0_Fm_8Kwvg0ezwxE8qjHwr3DxkP-ztbdsn2F7MvBocaQAT1XDTS4QlD5eJvCIGezcr3WMkdPAoNhTNDaQGVS0S9ldHt6lEyZAHI-NE1wuJsZWnKo");'></div>
+<p class="text-gray-800 text-base font-semibold leading-normal text-center">A-Line Dresses</p>
+</div>
+<div class="flex flex-col gap-3 rounded-lg min-w-48 flex-shrink-0">
+<div class="w-full bg-center bg-no-repeat aspect-[3/4] bg-cover rounded-xl" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuDx0HvBrlURSgeHU-CB4dUYcbpY7RvLe6FNPNIhf-prVBKiT3gkdVGP3l_cBy2DaQ97zxRTD0ydNDTOBfaMPy0mH7vKkNW93iEAwGk3zL-QyBR_0mmbFG6acLUom1-Q-fsDdlOp8rjoAR5oaU395Yg-iFphecIzvNobSsX5AzW2Pm8bJv60pAYDI8w-KWbtv4YjitEBFVeEt93FSuVoA05Y88S_8mqOTvK6B9nGeUsMpxkpYNeiyi2ObhbV2rfI9PB2OUsM-mDBeZQ");'></div>
+<p class="text-gray-800 text-base font-semibold leading-normal text-center">Fitted Blazers</p>
+</div>
+<div class="flex flex-col gap-3 rounded-lg min-w-48 flex-shrink-0">
+<div class="w-full bg-center bg-no-repeat aspect-[3/4] bg-cover rounded-xl" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuAZYhgycNielmSupfMDLB_V_C4uZpYqEQNx7X6xqXhxE9wW-pRDXmBy7UUaawmaLa9iuJQDN32R5M2IbnzZ6Vb6FTz65QgGZfUtPQT88MM-2r4IeJiJTXwk-qT_IL8sLWVOgi_Sg8Oq1cuiHWz4BJoGUCnBE3lNehofaW8k1sKQJVh_g0glR9RW4icnWTce965-oTOL9KSgO65Nyl_KoaNHWM7bCvJVWyTn8WuU4uo4AMYt0voj6wjs2_-bgYhiEhZo7a6eyrNk2Io");'></div>
+<p class="text-gray-800 text-base font-semibold leading-normal text-center">Wrap Dresses</p>
+</div>
+</div>
+</div>
+</main>
+</div>
+<footer class="sticky bottom-0 bg-white border-t border-gray-200">
+<nav class="flex justify-around px-2 py-1">
+<a class="flex flex-col items-center justify-center gap-1 rounded-lg text-[var(--primary-color)] p-2 w-full hover:bg-[var(--secondary-color)]" href="#">
+<div class="flex h-7 items-center justify-center">
+<svg fill="currentColor" height="24px" viewBox="0 0 256 256" width="24px" xmlns="http://www.w3.org/2000/svg">
+<path d="M224,115.55V208a16,16,0,0,1-16,16H168a16,16,0,0,1-16-16V168a8,8,0,0,0-8-8H112a8,8,0,0,0-8,8v40a16,16,0,0,1-16,16H48a16,16,0,0,1-16-16V115.55a16,16,0,0,1,5.17-11.78l80-75.48.11-.11a16,16,0,0,1,21.53,0,1.14,1.14,0,0,0,.11.11l80,75.48A16,16,0,0,1,224,115.55Z"></path>
+</svg>
+</div>
+<p class="text-xs font-medium leading-normal tracking-[0.015em]">Home</p>
+</a>
+<a class="flex flex-col items-center justify-center gap-1 rounded-lg text-gray-500 p-2 w-full hover:bg-gray-100" href="#">
+<div class="flex h-7 items-center justify-center">
+<svg fill="currentColor" height="24px" viewBox="0 0 256 256" width="24px" xmlns="http://www.w3.org/2000/svg">
+<path d="M208,56H180.28L166.65,35.56A8,8,0,0,0,160,32H96a8,8,0,0,0-6.65,3.56L75.71,56H48A24,24,0,0,0,24,80V192a24,24,0,0,0,24,24H208a24,24,0,0,0,24-24V80A24,24,0,0,0,208,56Zm8,136a8,8,0,0,1-8,8H48a8,8,0,0,1-8-8V80a8,8,0,0,1,8-8H80a8,8,0,0,0,6.66-3.56L100.28,48h55.43l13.63,20.44A8,8,0,0,0,176,72h32a8,8,0,0,1,8,8ZM128,88a44,44,0,1,0,44,44A44.05,44.05,0,0,0,128,88Zm0,72a28,28,0,1,1,28-28A28,28,0,0,1,128,160Z"></path>
+</svg>
+</div>
+<p class="text-xs font-medium leading-normal tracking-[0.015em]">Camera</p>
+</a>
+<a class="flex flex-col items-center justify-center gap-1 rounded-lg text-gray-500 p-2 w-full hover:bg-gray-100" href="#">
+<div class="flex h-7 items-center justify-center">
+<svg fill="currentColor" height="24px" viewBox="0 0 256 256" width="24px" xmlns="http://www.w3.org/2000/svg">
+<path d="M214.7,209.7a1.89,1.89,0,0,0-.11-.25l-45.48-96.86,20.5-32.18a1.74,1.74,0,0,0,.11-.18,16,16,0,0,0,0-16.46c-.09-.16-.2-.32-.3-.47L168,32.7V8a8,8,0,0,0-16,0V32.42L146.74,39a24,24,0,0,1-37.48,0L104,32.42V8A8,8,0,0,0,88,8V32.7L66.58,63.3c-.1.15-.21.31-.3.47a16,16,0,0,0,0,16.46,1.74,1.74,0,0,0,.11.18l20.5,32.18L41.41,209.45a1.89,1.89,0,0,0-.11.25A16,16,0,0,0,56,232H200a16,16,0,0,0,14.71-22.3ZM80,72,96.43,48.57l.33.42a40,40,0,0,0,62.48,0l.33-.42L176,72l-20.38,32H100.39ZM56,216l45.07-96h53.84L200,216Z"></path>
+</svg>
+</div>
+<p class="text-xs font-medium leading-normal tracking-[0.015em]">Wardrobe</p>
+</a>
+<a class="flex flex-col items-center justify-center gap-1 rounded-lg text-gray-500 p-2 w-full hover:bg-gray-100" href="#">
+<div class="flex h-7 items-center justify-center">
+<svg fill="currentColor" height="24px" viewBox="0 0 256 256" width="24px" xmlns="http://www.w3.org/2000/svg">
+<path d="M230.92,212c-15.23-26.33-38.7-45.21-66.09-54.16a72,72,0,1,0-73.66,0C63.78,166.78,40.31,185.66,25.08,212a8,8,0,1,0,13.85,8c18.84-32.56,52.14-52,89.07-52s70.23,19.44,89.07,52a8,8,0,1,0,13.85-8ZM72,96a56,56,0,1,1,56,56A56.06,56.06,0,0,1,72,96Z"></path>
+</svg>
+</div>
+<p class="text-xs font-medium leading-normal tracking-[0.015em]">Profile</p>
+</a>
+</nav>
+</footer>
+</div>
+
+</body></html>

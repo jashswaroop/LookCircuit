@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<link crossorigin="" href="https://fonts.gstatic.com/" rel="preconnect"/>
+<link as="style" href="https://fonts.googleapis.com/css2?display=swap&amp;family=Plus+Jakarta+Sans:wght@400;500;700;800" onload="this.rel='stylesheet'" rel="stylesheet"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<title>Stitch Design</title>
+<style type="text/tailwindcss">
+      :root {
+        --primary-color: #2597f4;
+        --secondary-color: #8B5CF6;
+        --accent-color: #EC4899;
+      }
+      .perspective-container {
+        perspective: 1000px;
+      }
+      .card-3d {
+        transform-style: preserve-3d;
+        transition: transform 0.5s;
+      }
+      .card-3d:hover {
+        transform: rotateY(10deg) rotateX(5deg) scale(1.05);
+      }
+      .card-3d .shine {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background: linear-gradient(135deg, rgba(255, 255, 255, 0.2) 0%, rgba(255, 255, 255, 0) 60%);
+        pointer-events: none;
+        opacity: 0;
+        transition: opacity 0.5s;
+      }
+      .card-3d:hover .shine {
+        opacity: 1;
+      }
+    </style>
+<style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+  </head>
+<body class="bg-[#F0F2F5]">
+<div class="relative flex size-full min-h-screen flex-col justify-between group/design-root" style='font-family: "Plus Jakarta Sans", sans-serif;'>
+<div class="flex flex-col h-full">
+<header class="bg-white/80 backdrop-blur-sm sticky top-0 z-10 px-4 py-3">
+<div class="flex items-center justify-between">
+<button class="text-gray-600 hover:text-black transition-colors">
+<svg fill="currentColor" height="24px" viewBox="0 0 256 256" width="24px" xmlns="http://www.w3.org/2000/svg">
+<path d="M224,128a8,8,0,0,1-8,8H59.31l58.35,58.34a8,8,0,0,1-11.32,11.32l-72-72a8,8,0,0,1,0-11.32l72-72a8,8,0,0,1,11.32,11.32L59.31,120H216A8,8,0,0,1,224,128Z"></path>
+</svg>
+</button>
+<h1 class="text-lg font-bold text-gray-900">Profile Setup</h1>
+<div class="w-6"></div>
+</div>
+<div class="w-full bg-gray-200 rounded-full h-1.5 mt-4">
+<div class="bg-gradient-to-r from-[var(--primary-color)] to-[var(--secondary-color)] h-1.5 rounded-full" style="width: 25%"></div>
+</div>
+</header>
+<main class="flex-1 overflow-y-auto p-6">
+<div class="text-center mb-8">
+<h2 class="text-3xl font-extrabold text-gray-900 tracking-tight">What's your style inspiration?</h2>
+<p class="mt-2 text-base text-gray-600">
+              Select images that resonate with your personal style. This helps us tailor recommendations just for you.
+            </p>
+</div>
+<div class="grid grid-cols-2 gap-6">
+<div class="group perspective-container">
+<div class="relative rounded-2xl overflow-hidden card-3d cursor-pointer">
+<img alt="Urban Chic" class="w-full h-full object-cover aspect-square" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCXiKQYzSYU3EPaC2W7YbNGDAdhhp0RKOI4cbCu4Z4PUizliDk4CWVq6pTh6YLV4CgN09c45jLfsarInbBVPPn_9l_7S6BohY7sFvZq6noECDCpqKYAHu_YjDKxsf-twGM0u_RRl9TRgvw1Izw9gEFdZiXGcmACt5GdekkYw8OoY7V3MtJvmFTteTCZbLQ9-jpxDe0xOnWa5AHFmLz6BpqpRI141ftcv_912EF_QPVKmAzVIU7njrX00oYpv7BCoNj6o39OtRJMjFI"/>
+<div class="absolute inset-0 bg-black/20 group-hover:bg-black/40 transition-all duration-300"></div>
+<div class="shine"></div>
+<div class="absolute bottom-0 left-0 p-4">
+<p class="text-white text-lg font-bold">Urban Chic</p>
+</div>
+</div>
+</div>
+<div class="group perspective-container">
+<div class="relative rounded-2xl overflow-hidden card-3d cursor-pointer">
+<img alt="Street Style" class="w-full h-full object-cover aspect-square" src="https://lh3.googleusercontent.com/aida-public/AB6AXuB4BkmNGQq66E2lnJ7FGngZCcZ8R9t0tQMDW18tpqcAeMV-apREIJsiD61mI-0khw830POFX2TnBrclzZ7CUTITciyuzfrMkutxyVhDRL6Mha0S4UxpwSnoO1723_RMy-odrGOToJOgENv0xjU1Q3rAgVvirmrNOnt05VZapa-I7ceLvI005FUwyW07rsruM328iK3u1woMNqB3IhiJRerbDaXEVIdVQMSAzQDNdXOzXE3Ooi9r5BAIPGwkQNKugP8aojhhT_KPrcw"/>
+<div class="absolute inset-0 bg-black/20 group-hover:bg-black/40 transition-all duration-300"></div>
+<div class="shine"></div>
+<div class="absolute bottom-0 left-0 p-4">
+<p class="text-white text-lg font-bold">Street Style</p>
+</div>
+</div>
+</div>
+<div class="group perspective-container">
+<div class="relative rounded-2xl overflow-hidden card-3d cursor-pointer">
+<img alt="Minimalist" class="w-full h-full object-cover aspect-square" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDFvb2heKIyW9RUIBYZ4vUKpL6dNQH94PEEF3oZCHKS1mXuTn5vh1OgRl83bwSLXRzVzPvMkmkPxkJBSbW94wH_9NSIw1-G92RSLJnC96IsnN0wTkEuFNoq9kJEJXBCEJA_Sxb_pzMsISn9fWzMwi8T0-cB2PZsBV-CMrTJzyIpoEtqSGXaNFjyBnc7kRsxUgtMjC1ZEK3w-xEyXWnoiLs9xfMfCXra31jkDz5CRsKW2OfvmDptOU2EmEe-qyjRizKvaecnj2oVOB0"/>
+<div class="absolute inset-0 bg-black/20 group-hover:bg-black/40 transition-all duration-300"></div>
+<div class="shine"></div>
+<div class="absolute bottom-0 left-0 p-4">
+<p class="text-white text-lg font-bold">Minimalist</p>
+</div>
+</div>
+</div>
+<div class="group perspective-container">
+<div class="relative rounded-2xl overflow-hidden card-3d cursor-pointer">
+<img alt="Vintage" class="w-full h-full object-cover aspect-square" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBEJVBU0JNqXkJRctpA0UsjV3K5ZWiz1KItj_s3iSpizOepUvSwHA4JfAbWWW7F2WAiCPtn55hS9MEpLrUq4kxWzFWATdLXlxjsknZlgLK0qS5xiwv6gRCb2Vtr8UGIjiQ52msLV-AbE7U0G2RjOdeJNQ6ue0-KY1FXPOv2cpgQaME7_L6Jald_kz_yDADiwqWRr0G5lADbanYnaEhZVRfXbIcwVe-cYw5UbjgO_-8TCSDNcU2bKeMxWH3u0lyI5ndI-ncKuzbLQJ0"/>
+<div class="absolute inset-0 bg-black/20 group-hover:bg-black/40 transition-all duration-300"></div>
+<div class="shine"></div>
+<div class="absolute bottom-0 left-0 p-4">
+<p class="text-white text-lg font-bold">Vintage</p>
+</div>
+</div>
+</div>
+<div class="group perspective-container col-span-2">
+<div class="relative rounded-2xl overflow-hidden card-3d cursor-pointer">
+<img alt="High Fashion" class="w-full h-full object-cover aspect-[2/1]" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDBx24bU4msZWL9WfsilknuEpNtqFW22eTagJ0P54fo38CnYP31GGE8K8Df7r-SO9KA0dCL8pxds5FzGVC-D7IF529RD64gyF-4gBhKGY1HZwLz-HMGmzodBs5WHCw-hAc0p_9SGXO3PAG11YN7yXzspRGLTvow3IryPMnL5wzFKS0GjOpljWoinhEGGv_NnJkxB8Pia8ruVDhYV61lAe1qqpnu8D4vECOz2r-h88i3RFjnjnYZKGYYUHy_JN8E98cM5eeBItaFoGg"/>
+<div class="absolute inset-0 bg-black/20 group-hover:bg-black/40 transition-all duration-300"></div>
+<div class="shine"></div>
+<div class="absolute bottom-0 left-0 p-4">
+<p class="text-white text-lg font-bold">High Fashion</p>
+</div>
+</div>
+</div>
+</div>
+</main>
+</div>
+<footer class="bg-white/80 backdrop-blur-sm sticky bottom-0 z-10 p-4">
+<button class="w-full h-14 flex items-center justify-center rounded-xl bg-gradient-to-r from-[var(--primary-color)] to-[var(--secondary-color)] text-white text-lg font-bold tracking-wide shadow-lg hover:shadow-xl transform hover:scale-105 transition-all duration-300">
+<span class="truncate">Next</span>
+</button>
+</footer>
+</div>
+
+</body></html>

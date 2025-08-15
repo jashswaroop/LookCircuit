@@ -1,0 +1,189 @@
+<html><head>
+<meta charset="utf-8"/>
+<link crossorigin="" href="https://fonts.gstatic.com/" rel="preconnect"/>
+<link as="style" href="https://fonts.googleapis.com/css2?display=swap&amp;family=Noto+Sans%3Awght%40400%3B500%3B700%3B900&amp;family=Plus+Jakarta+Sans%3Awght%40400%3B500%3B700%3B800" onload="this.rel='stylesheet'" rel="stylesheet"/>
+<title>Stitch Design</title>
+<link href="data:image/x-icon;base64," rel="icon" type="image/x-icon"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<style type="text/tailwindcss">
+      :root {
+        --primary-color: #2597f4;
+        --secondary-color: #d4af37;
+        --background-color: #ffffff;
+        --text-primary: #111518;
+        --text-secondary: #60778a;
+        --border-color: #dbe1e6;
+      }
+      body {
+        font-family: 'Plus Jakarta Sans', sans-serif;
+        background-color: var(--background-color);
+        color: var(--text-primary);
+      }
+    </style>
+<style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+  </head>
+<body>
+<div class="relative flex size-full min-h-screen flex-col justify-between overflow-x-hidden" style='font-family: "Plus Jakarta Sans", "Noto Sans", sans-serif;'>
+<div class="flex-grow">
+<header class="flex items-center bg-white p-4 pb-2 justify-between sticky top-0 z-10">
+<button class="text-[var(--text-primary)] flex size-10 shrink-0 items-center justify-center rounded-full hover:bg-gray-100" data-icon="X" data-size="24px" data-weight="regular">
+<svg fill="currentColor" height="24px" viewBox="0 0 256 256" width="24px" xmlns="http://www.w3.org/2000/svg">
+<path d="M205.66,194.34a8,8,0,0,1-11.32,11.32L128,139.31,61.66,205.66a8,8,0,0,1-11.32-11.32L116.69,128,50.34,61.66A8,8,0,0,1,61.66,50.34L128,116.69l66.34-66.35a8,8,0,0,1,11.32,11.32L139.31,128Z"></path>
+</svg>
+</button>
+<h1 class="text-[var(--text-primary)] text-xl font-bold leading-tight tracking-[-0.015em] flex-1 text-center pr-10">Share</h1>
+</header>
+<main class="p-4 space-y-6">
+<section>
+<h2 class="text-[var(--text-primary)] text-lg font-bold leading-tight tracking-[-0.015em] mb-3">Select Items or Outfits</h2>
+<div class="flex overflow-x-auto [-ms-scrollbar-style:none] [scrollbar-width:none] [&amp;::-webkit-scrollbar]:hidden -mx-4 px-4">
+<div class="flex items-start gap-4">
+<div class="flex flex-col gap-2 rounded-lg w-40 text-center group">
+<div class="relative">
+<div class="w-full bg-center bg-no-repeat aspect-square bg-cover rounded-xl flex flex-col" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuDpKrdrsmT2TjHRB3hqJaDjbKJQdLvLZNazEHYiC0W3DXYfdN1uA0usLMfVSt9QMtUf8DDHRzAVfKcTX8mzIJbviWddpiYqOqnnOdqv_KZvTcLXOqgiVZyW_TumrU0x4KD2sznN0zjwyVhMG_-Po-ZeYRkilpOL8_G9D6_80mvWraXJ8APY4ZB48Fyk5o97cOnZVfQfxPXCgAUR-MYrf2Ji2D5F7FTgA-FN--kWm82hKpof34idSDbDeQoVwNqI-6VDtZLZIY-tk9U");'></div>
+<div class="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-20 transition-all duration-300 rounded-xl flex items-center justify-center">
+<div class="size-8 bg-[var(--primary-color)] rounded-full flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity">
+<svg fill="#FFFFFF" height="20px" viewBox="0 0 256 256" width="20px" xmlns="http://www.w3.org/2000/svg">
+<path d="M229.66,77.66l-128,128a8,8,0,0,1-11.32,0l-56-56a8,8,0,0,1,11.32-11.32L96,188.69,218.34,66.34a8,8,0,0,1,11.32,11.32Z"></path>
+</svg>
+</div>
+</div>
+</div>
+<p class="text-[var(--text-primary)] text-sm font-medium leading-normal">Outfit 1</p>
+</div>
+<div class="flex flex-col gap-2 rounded-lg w-40 text-center group">
+<div class="relative">
+<div class="w-full bg-center bg-no-repeat aspect-square bg-cover rounded-xl flex flex-col border-2 border-[var(--primary-color)]" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuCoyqlu6TTODqvaLF80KGdEUb51CPJ4noOLmWh_8xoeMY8YV_to4_btXT9SV-iSCw_AHCFLxBLtKzrmuCkWWQ90pluEalmed8TsGO5hz8QtXjq2D0b4nKYRWq4snG7APHX6pa1De30TzeQ3pXOipfSL3FcQUCFUpUHPbKP8M8YGIWhLI27Z3B6-jU-xdGml9Cb_hybS6ybv4k2DS1SRy-0SjQMPpWyWm1Lgsm1g8IezQLB4s7-jMzv4qu14IzLzyb334-U66qE_RgY");'></div>
+<div class="absolute inset-0 bg-black bg-opacity-20 rounded-xl flex items-center justify-center">
+<div class="size-8 bg-[var(--primary-color)] rounded-full flex items-center justify-center">
+<svg fill="#FFFFFF" height="20px" viewBox="0 0 256 256" width="20px" xmlns="http://www.w3.org/2000/svg">
+<path d="M229.66,77.66l-128,128a8,8,0,0,1-11.32,0l-56-56a8,8,0,0,1,11.32-11.32L96,188.69,218.34,66.34a8,8,0,0,1,11.32,11.32Z"></path>
+</svg>
+</div>
+</div>
+</div>
+<p class="text-[var(--text-primary)] text-sm font-bold leading-normal">Handbag</p>
+</div>
+<div class="flex flex-col gap-2 rounded-lg w-40 text-center group">
+<div class="relative">
+<div class="w-full bg-center bg-no-repeat aspect-square bg-cover rounded-xl flex flex-col" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuAOH8IxtASMvxgX0cAMtEmpNJGrnFjnbCwg_Q3F0wsrpfT-I4qXbKoJMvVpGtLNfSBNsdcMbrm4gLTj2zdVlSRCbjZn9Y79ZxmNhxqLpSAO9FjJaIR29iUtTX0-w86uvgmhuy1ijfMWLKpcCJO5MzcIpferE-fT5rwE79oRuiKVK967b92ev_N4ZqlHaugpvF60T8VHOqjRRF0wDrrksRqz_Ntw21KxC0NIYLdCnBhHQp-7F81qH2eW_nZqHDheeXM2EBZMBJjIurk");'></div>
+<div class="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-20 transition-all duration-300 rounded-xl flex items-center justify-center">
+<div class="size-8 bg-[var(--primary-color)] rounded-full flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity">
+<svg fill="#FFFFFF" height="20px" viewBox="0 0 256 256" width="20px" xmlns="http://www.w3.org/2000/svg"><path d="M229.66,77.66l-128,128a8,8,0,0,1-11.32,0l-56-56a8,8,0,0,1,11.32-11.32L96,188.69,218.34,66.34a8,8,0,0,1,11.32,11.32Z"></path></svg>
+</div>
+</div>
+</div>
+<p class="text-[var(--text-primary)] text-sm font-medium leading-normal">Casual Look</p>
+</div>
+<div class="flex flex-col gap-2 rounded-lg w-40 text-center group">
+<div class="relative">
+<div class="w-full bg-center bg-no-repeat aspect-square bg-cover rounded-xl flex flex-col" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuBGCEUG6oBvobiQ1OvIVrOqnbiNxBdpKlfUu0d335eKGHOCifuuvxJD-8zhyFe4B3NPQ7LeoIOtQmGG4n0MuzApfOAT0rJJsmzrJGN8-Z7_pKDwPSCFC4kweLRc-EmmeMMULyOMTzfIXosxHEANJxkJHqyNhGcwSqOS9SXi8Q01rIlpQsdZADhGZ2TDm1j-EHybUZ7_vYgLguJb1WgvRS1uN7rPSg4Pw0r44Yd0vlMY22BYtXyviKfPXH-aDy78hZbGXBffN95KfKQ");'></div>
+<div class="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-20 transition-all duration-300 rounded-xl flex items-center justify-center">
+<div class="size-8 bg-[var(--primary-color)] rounded-full flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity">
+<svg fill="#FFFFFF" height="20px" viewBox="0 0 256 256" width="20px" xmlns="http://www.w3.org/2000/svg"><path d="M229.66,77.66l-128,128a8,8,0,0,1-11.32,0l-56-56a8,8,0,0,1,11.32-11.32L96,188.69,218.34,66.34a8,8,0,0,1,11.32,11.32Z"></path></svg>
+</div>
+</div>
+</div>
+<p class="text-[var(--text-primary)] text-sm font-medium leading-normal">Sneakers</p>
+</div>
+</div>
+</div>
+</section>
+<section>
+<h2 class="text-[var(--text-primary)] text-lg font-bold leading-tight tracking-[-0.015em] mb-3">Customize Presentation</h2>
+<div class="border-b border-[var(--border-color)]">
+<nav class="flex gap-4 -mb-px">
+<a class="flex flex-col items-center gap-2 pb-2.5 pt-2 border-b-2 border-[var(--primary-color)] text-[var(--primary-color)]" href="#">
+<div class="bg-center bg-no-repeat aspect-square bg-cover rounded-lg size-10" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuAFL1zilEXc-KWzN9lXt8kv168ZkUf6j7GswqqTSkn6Zsh476lp-DcV-m2NHLrqocRNPETy7x3BqAGV-kWdWsuQz2aXiLCHZpzzaCa-uAGYpo9FiWKElX3cRl4NWLVOti8gsO3MX8a9spmnlRFpHE_97ls1UWwuN1OvJugUA_XWSmUb7K3CoKRd-yZakZXrDlwnMPgJ5934uw5Qn9WNtdjycHtvILCYEwA0wgvJ9aduIY2vyGYty-oSLhQMJV-uPNqUQp0yKypOINk");'></div>
+<p class="text-sm font-bold leading-normal tracking-[0.015em]">Collage</p>
+</a>
+<a class="flex flex-col items-center gap-2 pb-2.5 pt-2 border-b-2 border-transparent text-[var(--text-secondary)] hover:text-[var(--primary-color)]" href="#">
+<div class="bg-center bg-no-repeat aspect-square bg-cover rounded-lg size-10" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuCkb0V5-rchdqc1aVjr6SAXjUaEwPUcpVkMzPp9vGJqyV3mw8tCEb7d-UZsyOdPhyrcadkb0snrGwLre5pMxOkI-e_Kx7FGHg94c2feSbjXeaU34w76OLWUZmXv-KwmAIFIbnb1IbTivIVb_W69Qv3mwwUREH87IdJHXmIZ8CQGeYxVz99gO30apaL0-DT27SKAvTAfXnV3iatzQaEOjPh0idAq_zsGJaeDFruhVSg-KY04BWrinGvU5tnlt-h2fu8OFaq2HnxEZ0c");'></div>
+<p class="text-sm font-bold leading-normal tracking-[0.015em]">Story</p>
+</a>
+<a class="flex flex-col items-center gap-2 pb-2.5 pt-2 border-b-2 border-transparent text-[var(--text-secondary)] hover:text-[var(--primary-color)]" href="#">
+<div class="bg-center bg-no-repeat aspect-square bg-cover rounded-lg size-10" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuCo7lpPy92Ar-k6Mkl7btCzqFQf3wr5X01LdW9y7qFIHidvfNhsYqtgqV329XFq-HwxAWlFvCbxlag6pjRbfXpfEF2eaxbg8HEFkF2SjRd4omNvIFoVJNnBx5Q8tA5qYynA6IgscDmH9aJbEytbzUnMZ8Qw7B8pyLKUCUPgWg6F5-LJKrSRLmcU_XTdo6Zznp_YD91eWVSIrScrKRSmIB9yUUryTWV1CH7rtdQEoHOKChF_d3QqfCMubfGT8SGuAJVjZAXrvo1x08g");'></div>
+<p class="text-sm font-bold leading-normal tracking-[0.015em]">Single</p>
+</a>
+</nav>
+</div>
+<div class="mt-4">
+<div class="w-full gap-1 overflow-hidden bg-white aspect-[3/2] rounded-xl flex shadow-lg">
+<div class="w-full bg-center bg-no-repeat bg-cover aspect-auto rounded-none flex-1" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuDqPgnmqipsJnh4kkz9eKlsSgMo3BtFb_tEJr7HGDDwi7_CsfNSFrEBmuGEud6HLnj2jihyC_rIpW59cPlVBnsZKAr1XI-Qdm5K0HceRJNHvSs0w-P8M_2onYouHUuD3qhweX-leJ0F0I4YMIqjEutnwkz00Al-2qH-446PaEcmYBfuh5aV8doIv8RvLtBPVHhG_1Enb-rvhwx11ORvsDa3N4RrplNMFcio_mHyi-3BOrL9MhDAdks8cnhGAtAV05da3_ZHsqF79sI");'></div>
+</div>
+</div>
+</section>
+<section>
+<h2 class="text-[var(--text-primary)] text-lg font-bold leading-tight tracking-[-0.015em] mb-3">Choose Platform</h2>
+<div class="grid grid-cols-2 gap-3">
+<button class="flex flex-1 gap-3 rounded-lg border border-[var(--border-color)] bg-white p-4 items-center hover:bg-gray-50 transition-colors">
+<div class="text-[#E1306C]" data-icon="InstagramLogo" data-size="24px" data-weight="fill">
+<svg fill="currentColor" height="24px" viewBox="0 0 256 256" width="24px" xmlns="http://www.w3.org/2000/svg">
+<path d="M128,80a48,48,0,1,0,48,48A48.05,48.05,0,0,0,128,80Zm0,80a32,32,0,1,1,32-32A32,32,0,0,1,128,160ZM176,24H80A56.06,56.06,0,0,0,24,80v96a56.06,56.06,0,0,0,56,56h96a56.06,56.06,0,0,0,56-56V80A56.06,56.06,0,0,0,176,24Zm40,152a40,40,0,0,1-40,40H80a40,40,0,0,1-40-40V80A40,40,0,0,1,80,40h96a40,40,0,0,1,40,40ZM192,76a12,12,0,1,1-12-12A12,12,0,0,1,192,76Z"></path>
+</svg>
+</div>
+<h3 class="text-[var(--text-primary)] text-base font-bold leading-tight">Instagram</h3>
+</button>
+<button class="flex flex-1 gap-3 rounded-lg border border-[var(--border-color)] bg-white p-4 items-center hover:bg-gray-50 transition-colors">
+<div class="text-[#1877F2]" data-icon="FacebookLogo" data-size="24px" data-weight="fill">
+<svg fill="currentColor" height="24px" viewBox="0 0 256 256" width="24px" xmlns="http://www.w3.org/2000/svg">
+<path d="M128,24A104,104,0,1,0,232,128,104.11,104.11,0,0,0,128,24ZM144,152H128v64a88.23,88.23,0,0,1-96.22-82.68,8,8,0,0,1,8-7.32H80v-24a32,32,0,0,1,32-32h16a8,8,0,0,1,0,16H112a16,16,0,0,0-16,16v24h24a8,8,0,0,1,0,16H120v64a88,88,0,1,1,24-15.63V152Z" transform="translate(0)"></path>
+</svg>
+</div>
+<h3 class="text-[var(--text-primary)] text-base font-bold leading-tight">Facebook</h3>
+</button>
+<button class="flex flex-1 gap-3 rounded-lg border border-[var(--border-color)] bg-white p-4 items-center hover:bg-gray-50 transition-colors">
+<div class="text-[#E60023]" data-icon="PinterestLogo" data-size="24px" data-weight="fill">
+<svg fill="currentColor" height="24px" viewBox="0 0 256 256" width="24px" xmlns="http://www.w3.org/2000/svg">
+<path d="M216,112c0,22.57-7.9,43.2-22.23,58.11C180.39,184,162.25,192,144,192c-17.88,0-29.82-5.86-37.43-12L95.79,225.83A8,8,0,0,1,88,232a8.24,8.24,0,0,1-1.84-.21,8,8,0,0,1-6-9.62l32-136a8,8,0,0,1,15.58,3.66l-16.9,71.8C114,166,123.3,176,144,176c27.53,0,56-23.94,56-64A72,72,0,1,0,65.63,148a8,8,0,0,1-13.85,8A88,88,0,1,1,216,112Z"></path>
+</svg>
+</div>
+<h3 class="text-[var(--text-primary)] text-base font-bold leading-tight">Pinterest</h3>
+</button>
+<button class="flex flex-1 gap-3 rounded-lg border border-[var(--border-color)] bg-white p-4 items-center hover:bg-gray-50 transition-colors">
+<div class="text-[#1DA1F2]" data-icon="TwitterLogo" data-size="24px" data-weight="fill">
+<svg fill="currentColor" height="24px" viewBox="0 0 256 256" width="24px" xmlns="http://www.w3.org/2000/svg">
+<path d="M247.39,68.94A8,8,0,0,0,240,64H209.57A48.66,48.66,0,0,0,168.1,40a46.91,46.91,0,0,0-33.75,13.7A47.9,47.9,0,0,0,120,88v6.09C79.74,83.47,46.81,50.72,46.46,50.37a8,8,0,0,0-13.65,4.92c-4.31,47.79,9.57,79.77,22,98.18a110.93,110.93,0,0,0,21.88,24.2c-15.23,17.53-39.21,26.74-39.47,26.84a8,8,0,0,0-3.85,11.93c.75,1.12,3.75,5.05,11.08,8.72C53.51,229.7,65.48,232,80,232c70.67,0,129.72-54.42,135.75-124.44l29.91-29.9A8,8,0,0,0,247.39,68.94Z"></path>
+</svg>
+</div>
+<h3 class="text-[var(--text-primary)] text-base font-bold leading-tight">Twitter</h3>
+</button>
+<button class="flex flex-1 gap-3 rounded-lg border border-[var(--border-color)] bg-white p-4 items-center hover:bg-gray-50 transition-colors">
+<div class="text-[var(--text-secondary)]" data-icon="Link" data-size="24px" data-weight="bold">
+<svg fill="currentColor" height="24px" viewBox="0 0 256 256" width="24px" xmlns="http://www.w3.org/2000/svg"><path d="M137.54,186.36a8,8,0,0,1,0,11.31l-9.94,10A56,56,0,0,1,48.38,128.4L72.5,104.28A56,56,0,0,1,149.31,102a8,8,0,1,1-10.64,12,40,40,0,0,0-54.85,1.63L59.7,139.72a40,40,0,0,0,56.58,56.58l9.94-9.94A8,8,0,0,1,137.54,186.36Zm70.08-138a56.08,56.08,0,0,0-79.22,0l-9.94,9.95a8,8,0,0,0,11.32,11.31l9.94-9.94a40,40,0,0,1,56.58,56.58L172.18,140.4A40,40,0,0,1,117.33,142,8,8,0,1,0,106.69,154a56,56,0,0,0,76.81-2.26l24.12-24.12A56.08,56.08,0,0,0,207.62,48.38Z"></path></svg>
+</div>
+<h3 class="text-[var(--text-primary)] text-base font-bold leading-tight">Copy Link</h3>
+</button>
+</div>
+</section>
+<section>
+<h2 class="text-[var(--text-primary)] text-lg font-bold leading-tight tracking-[-0.015em] mb-3">Privacy Settings</h2>
+<button class="flex items-center gap-4 bg-white p-4 rounded-lg border border-[var(--border-color)] w-full justify-between hover:bg-gray-50 transition-colors">
+<div class="flex flex-col justify-center text-left">
+<p class="text-[var(--text-primary)] text-base font-medium leading-normal">Visibility</p>
+<p class="text-[var(--text-secondary)] text-sm font-normal leading-normal">Control who can see your content</p>
+</div>
+<div class="flex items-center gap-2">
+<p class="text-[var(--text-primary)] text-base font-medium leading-normal">Public</p>
+<svg class="text-gray-400" fill="currentColor" height="16px" viewBox="0 0 256 256" width="16px" xmlns="http://www.w3.org/2000/svg">
+<path d="M181.66,133.66l-80,80a8,8,0,0,1-11.32-11.32L164.69,128,90.34,53.66a8,8,0,0,1,11.32-11.32l80,80A8,8,0,0,1,181.66,133.66Z" transform="rotate(90 128 128)"></path>
+</svg>
+</div>
+</button>
+</section>
+</main>
+</div>
+<footer class="sticky bottom-0 bg-white">
+<div class="px-4 py-3 border-t border-gray-100">
+<button class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-xl h-14 px-5 flex-1 bg-[var(--primary-color)] text-white text-lg font-bold leading-normal tracking-[-0.015em] w-full hover:opacity-90 transition-opacity">
+<span class="truncate">Share Now</span>
+</button>
+</div>
+</footer>
+</div>
+
+</body></html>

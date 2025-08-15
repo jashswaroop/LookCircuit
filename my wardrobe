@@ -1,0 +1,141 @@
+<html><head>
+<meta charset="utf-8"/>
+<link crossorigin="" href="https://fonts.gstatic.com/" rel="preconnect"/>
+<link as="style" href="https://fonts.googleapis.com/css2?display=swap&amp;family=Plus+Jakarta+Sans%3Awght%40400%3B500%3B600%3B700%3B800" onload="this.rel='stylesheet'" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Urbanist:wght@400;500;600;700&amp;display=swap" rel="stylesheet"/>
+<style type="text/tailwindcss">
+    :root {
+        --primary: #8E44AD;
+        --secondary: #D2B4DE;
+        --accent: #F39C12;
+        --background: #FEF9E7;
+        --text-primary: #34495E;
+        --text-secondary: #808B96;
+        --card-bg: #FFFFFF;
+      }
+      body {
+        font-family: 'Urbanist', 'Plus Jakarta Sans', sans-serif;
+      }
+      .perspective-card {
+        transform-style: preserve-3d;
+        transition: transform 0.5s;
+      }
+      .perspective-card:hover {
+        transform: rotateY(5deg) rotateX(2deg) scale(1.02);
+      }
+    </style>
+<title>Stitch Design</title>
+<link href="data:image/x-icon;base64," rel="icon" type="image/x-icon"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+  </head>
+<body class="bg-[var(--background)]">
+<div class="relative flex size-full min-h-screen flex-col justify-between group/design-root overflow-x-hidden" style='font-family: "Plus Jakarta Sans", "Noto Sans", sans-serif;'>
+<div class="flex-grow">
+<header class="sticky top-0 z-20 bg-gradient-to-b from-[var(--background)] to-transparent px-4 pt-6 pb-2">
+<div class="flex items-center justify-between">
+<button class="p-2 rounded-full hover:bg-[var(--secondary)]/50 transition-colors">
+<svg class="text-[var(--text-primary)]" fill="none" height="24px" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" width="24px" xmlns="http://www.w3.org/2000/svg">
+<path d="M12 3v18m-9-9h18" stroke-linecap="round" stroke-linejoin="round"></path>
+<path d="M4 12a1 1 0 011-1h14a1 1 0 110 2H5a1 1 0 01-1-1z" stroke-linecap="round" stroke-linejoin="round" transform="rotate(90 12 12)"></path>
+</svg>
+</button>
+<h2 class="text-[var(--text-primary)] text-xl font-bold leading-tight tracking-tight flex-1 text-center">My Wardrobe</h2>
+<button class="relative p-2 rounded-full hover:bg-[var(--secondary)]/50 transition-colors">
+<div class="text-[var(--text-primary)]" data-icon="Sparkle" data-size="24px" data-weight="regular">
+<svg fill="currentColor" height="24px" viewBox="0 0 256 256" width="24px" xmlns="http://www.w3.org/2000/svg">
+<path d="M224,128a8,8,0,0,1-8,8H136v80a8,8,0,0,1-16,0V136H40a8,8,0,0,1,0-16h80V40a8,8,0,0,1,16,0v80h80A8,8,0,0,1,224,128Z"></path>
+</svg>
+</div>
+</button>
+</div>
+<div class="mt-4 flex items-center justify-center">
+<div class="flex border-b-2 border-transparent space-x-12">
+<a class="flex flex-col items-center justify-center border-b-2 border-[var(--primary)] text-[var(--primary)] pb-2 pt-1" href="#">
+<p class="text-base font-semibold leading-normal">Items</p>
+</a>
+<a class="flex flex-col items-center justify-center border-b-2 border-transparent text-[var(--text-secondary)] hover:text-[var(--primary)] hover:border-[var(--primary)]/50 pb-2 pt-1 transition-colors duration-300" href="#">
+<p class="text-base font-semibold leading-normal">Outfits</p>
+</a>
+<a class="flex flex-col items-center justify-center border-b-2 border-transparent text-[var(--text-secondary)] hover:text-[var(--primary)] hover:border-[var(--primary)]/50 pb-2 pt-1 transition-colors duration-300" href="#">
+<p class="text-base font-semibold leading-normal">Insights</p>
+</a>
+</div>
+</div>
+</header>
+<main class="px-4 pb-24">
+<div class="flex gap-3 py-4 overflow-x-auto no-scrollbar">
+<button class="flex h-10 shrink-0 items-center justify-center gap-x-2 rounded-full bg-[var(--primary)] text-white px-5 shadow-md transform hover:scale-105 transition-transform">
+<p class="text-sm font-semibold leading-normal">All</p>
+</button>
+<button class="flex h-10 shrink-0 items-center justify-center gap-x-2 rounded-full bg-[var(--card-bg)] text-[var(--text-primary)] px-5 shadow-sm hover:bg-gray-100 transform hover:scale-105 transition-transform">
+<p class="text-sm font-medium leading-normal">Tops</p>
+</button>
+<button class="flex h-10 shrink-0 items-center justify-center gap-x-2 rounded-full bg-[var(--card-bg)] text-[var(--text-primary)] px-5 shadow-sm hover:bg-gray-100 transform hover:scale-105 transition-transform">
+<p class="text-sm font-medium leading-normal">Bottoms</p>
+</button>
+<button class="flex h-10 shrink-0 items-center justify-center gap-x-2 rounded-full bg-[var(--card-bg)] text-[var(--text-primary)] px-5 shadow-sm hover:bg-gray-100 transform hover:scale-105 transition-transform">
+<p class="text-sm font-medium leading-normal">Dresses</p>
+</button>
+<button class="flex h-10 shrink-0 items-center justify-center gap-x-2 rounded-full bg-[var(--card-bg)] text-[var(--text-primary)] px-5 shadow-sm hover:bg-gray-100 transform hover:scale-105 transition-transform">
+<p class="text-sm font-medium leading-normal">Shoes</p>
+</button>
+<button class="flex h-10 shrink-0 items-center justify-center gap-x-2 rounded-full bg-[var(--card-bg)] text-[var(--text-primary)] px-5 shadow-sm hover:bg-gray-100 transform hover:scale-105 transition-transform">
+<p class="text-sm font-medium leading-normal">Accessories</p>
+</button>
+</div>
+<div class="grid grid-cols-2 gap-4">
+<div class="perspective-card group">
+<div class="w-full bg-center bg-no-repeat aspect-[3/4] bg-cover rounded-xl shadow-lg transition-all duration-300 group-hover:shadow-2xl" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuBGNtqCXdiJgBVJ1m_oZBJV_RfL33ZglO0Yj4mBIucKTQxnE4Dl9S2osmBnqlyU6Cz3rgJZYjyqMzpjNG-bfb-wsK5PfYxS2qxMGi7dSzy22hrZTLy34KjFXKAs-Gd1Uw2hE1bhbVg5zwH4zuq_DD8-TInDJegPQ-W3kSwOREUk4bucN8tm3r2eVQIqWUQ2sb4NempGpajkOE9RjVmoWA2tuMavEVVt5umrJD3wtb_vBYbo_noklBQYjFaynlCfIQLihg2i1N89LB8");'></div>
+</div>
+<div class="perspective-card group">
+<div class="w-full bg-center bg-no-repeat aspect-[3/4] bg-cover rounded-xl shadow-lg transition-all duration-300 group-hover:shadow-2xl" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuBiQ3CKhdWpDCITzT2vTdl4H2jz4teVo-oeXsPQaIZsVu9f8E6lmLArNu9LGDVXG5jNtEm0EvuUh4SRxWEupMxLAYdfkvMzQWhIQodWCZnMqqWvlQK9fgd68qOx2bjm_AwFXK-TDVxBMalQH_DJFgJTrrq04HX1xTVj6FmcbRP11arYD802K1UOaVew8RfO-To-8PntHCpGIZUMJB_qDTTislt-vkc3hM9nEq931m10mmvUfdAxAoT7h4K_NCTqcUKu43CShIM-7jw");'></div>
+</div>
+<div class="perspective-card group">
+<div class="w-full bg-center bg-no-repeat aspect-[3/4] bg-cover rounded-xl shadow-lg transition-all duration-300 group-hover:shadow-2xl" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuBFmWp6BfTqwJYelqA_LW8jaGZE-YJ_3dfwV5I9bhRpGMdNDzo_XgtjzVYR7kOWRddo1UpamZj6A0Mux-6yftQmkr9OX_hucbkvmemXbfeE9k49JnMe0vaKEJwYLZa_Ne4QnEB63qOCq3q1lu9wayVJVEQ6gF2vjvxrUKNqY3dlC9EuobLNRqjsZRki7FiS3EdKOqjMA3VYmDAgVgfS_eYHT9CAkDI3Hir4AVhkjmVaCVJnqGrIUjpYfYluXzUAXSQaQuHRLWc7RBE");'></div>
+</div>
+<div class="perspective-card group">
+<div class="w-full bg-center bg-no-repeat aspect-[3/4] bg-cover rounded-xl shadow-lg transition-all duration-300 group-hover:shadow-2xl" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuAa-iCpOXU0Y4PMe_k41wtVu4psC66ZtAdf5VvMFsNM90jUr8tXkTfDhnzZjKphhAykfUNOu0Ng81U9WwXu0c2gRb_dtHKiJzpJUP-d8MQ8I09rU1LGYfO_y8YFLgQX3C79Tr1Ti9panHooUFhyfI34XPUOh8gXUTkoqAX4kthNM4mw9ef08IWL4D3bG3o6_909arakwfbkl-3WMtQKML3Qz9qj6x56m63t-3MU4y4uw3YNK-ud7XUutUzdYf7xCbyafQhqjD_mstM");'></div>
+</div>
+<div class="perspective-card group">
+<div class="w-full bg-center bg-no-repeat aspect-[3/4] bg-cover rounded-xl shadow-lg transition-all duration-300 group-hover:shadow-2xl" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuCJrjJll3AbQqZ5SoulHOp-l7OLWZay3kNrHzX3tLZXE2OVktz8TYd1a7nO_4M0VuP859NuzL5eLsthtAEz9zw6rRFqjiaNlFTeVI6niOTpkjYm-5CYL8E05d4eupIrs-D-ZoX-qH82cPlOqrI18dJUQHz8RN7nmNTxspU9mi0HCI6QNrgQbSO0CL7-qeSjNZ55CasURrOn6Fg_IR2uWBv5FwagpGw2EJs29iPs5M6MLzoLJZdZJR4N9oSZl-EHO7dd5wKgiEQR_Bc");'></div>
+</div>
+<div class="perspective-card group">
+<div class="w-full bg-center bg-no-repeat aspect-[3/4] bg-cover rounded-xl shadow-lg transition-all duration-300 group-hover:shadow-2xl" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuBWIt8-cyM8jqHZVaViZHvoVmM7oS0ss9cNLWiX8_7742MyjOYURl2Skf0zvF_ItH_HflQxA5SjvdB_r_VbdVw9HC5RxO3-_IOwGvj_akkr6QsThAb-ePg9CUCo8W2YcrEMQuOzYnXxHuddjeUaJ3Sc9TfTJhlj4z6vsqXiufV557QXOdC6bN_8K_q7NdqsyYmju_fkOsUuFfQY7ebpK6jDbxKwmNvIndw4GxOrB9OeNOuMLIZx-B9ZoFp8CAzO3yWFmS3q73P_2YI");'></div>
+</div>
+</div>
+</main>
+</div>
+<footer class="fixed bottom-0 left-0 right-0 bg-[var(--card-bg)]/80 backdrop-blur-sm border-t border-gray-200/60 rounded-t-3xl shadow-t-lg">
+<nav class="flex justify-around items-center h-20 px-4">
+<a class="flex flex-col items-center justify-center gap-1 text-[var(--primary)]" href="#">
+<div class="p-2 rounded-full bg-[var(--secondary)]/50">
+<svg fill="currentColor" height="28px" viewBox="0 0 256 256" width="28px" xmlns="http://www.w3.org/2000/svg">
+<path d="M224,115.55V208a16,16,0,0,1-16,16H168a16,16,0,0,1-16-16V168a8,8,0,0,0-8-8H112a8,8,0,0,0-8,8v40a16,16,0,0,1-16,16H48a16,16,0,0,1-16-16V115.55a16,16,0,0,1,5.17-11.78l80-75.48.11-.11a16,16,0,0,1,21.53,0,1.14,1.14,0,0,0,.11.11l80,75.48A16,16,0,0,1,224,115.55Z"></path>
+</svg>
+</div>
+</a>
+<a class="flex flex-col items-center justify-center gap-1 text-[var(--text-secondary)] hover:text-[var(--primary)] transition-colors duration-300" href="#">
+<svg fill="currentColor" height="28px" viewBox="0 0 256 256" width="28px" xmlns="http://www.w3.org/2000/svg">
+<path d="M208,56H180.28L166.65,35.56A8,8,0,0,0,160,32H96a8,8,0,0,0-6.65,3.56L75.71,56H48A24,24,0,0,0,24,80V192a24,24,0,0,0,24,24H208a24,24,0,0,0,24-24V80A24,24,0,0,0,208,56Zm8,136a8,8,0,0,1-8,8H48a8,8,0,0,1-8-8V80a8,8,0,0,1,8-8H80a8,8,0,0,0,6.66-3.56L100.28,48h55.43l13.63,20.44A8,8,0,0,0,176,72h32a8,8,0,0,1,8,8ZM128,88a44,44,0,1,0,44,44A44.05,44.05,0,0,0,128,88Zm0,72a28,28,0,1,1,28-28A28,28,0,0,1,128,160Z"></path>
+</svg>
+</a>
+<a class="flex flex-col items-center justify-center gap-1 text-[var(--text-secondary)] hover:text-[var(--primary)] transition-colors duration-300" href="#">
+<svg fill="currentColor" height="28px" viewBox="0 0 256 256" width="28px" xmlns="http://www.w3.org/2000/svg">
+<path d="M247.59,61.22,195.83,33A8,8,0,0,0,192,32H160a8,8,0,0,0-8,8,24,24,0,0,1-48,0,8,8,0,0,0-8-8H64a8,8,0,0,0-3.84,1L8.41,61.22A15.76,15.76,0,0,0,1.82,82.48l19.27,36.81A16.37,16.37,0,0,0,35.67,128H56v80a16,16,0,0,0,16,16H184a16,16,0,0,0,16-16V128h20.34a16.37,16.37,0,0,0,14.58-8.71l19.27-36.81A15.76,15.76,0,0,0,247.59,61.22ZM35.67,112a.62.62,0,0,1-.41-.13L16.09,75.26,56,53.48V112ZM184,208H72V48h16.8a40,40,0,0,0,78.38,0H184Zm36.75-96.14a.55.55,0,0,1-.41.14H200V53.48l39.92,21.78Z"></path>
+</svg>
+</a>
+<a class="flex flex-col items-center justify-center gap-1 text-[var(--text-secondary)] hover:text-[var(--primary)] transition-colors duration-300" href="#">
+<svg fill="currentColor" height="28px" viewBox="0 0 256 256" width="28px" xmlns="http://www.w3.org/2000/svg">
+<path d="M230.92,212c-15.23-26.33-38.7-45.21-66.09-54.16a72,72,0,1,0-73.66,0C63.78,166.78,40.31,185.66,25.08,212a8,8,0,1,0,13.85,8c18.84-32.56,52.14-52,89.07-52s70.23,19.44,89.07,52a8,8,0,1,0,13.85-8ZM72,96a56,56,0,1,1,56,56A56.06,56.06,0,0,1,72,96Z"></path>
+</svg>
+</a>
+</nav>
+</footer>
+</div>
+
+</body></html>
